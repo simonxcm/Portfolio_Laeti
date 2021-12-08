@@ -1,0 +1,105 @@
+@import url(/SCSS/responsive-queries.scss);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.psa {
+    position: absolute;
+}
+
+.op80{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.db {
+    display: block;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.t0 {
+    top: 0;
+}
+
+.l0 {
+    left: 0;
+}
+
+.homepage-container {
+    display: flex;
+    position: relative;
+}
+
+.mainbox-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 37.5%;
+    height: 100vh;
+}
+
+.yellow-line {
+    width: 3px;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.videobox-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 62.5%;
+    height: 100vh;
+}
+
+.main-box{
+    width: 100%;
+    overflow: hidden; 
+    background-image: url("/Medias/Sombrero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    position: relative;
+    height: 100vh;
+}
+
+.video-box {
+    width: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh;
+}
+
+.video-box1 {
+    background-image: url("/Medias/LeoFiftyFive.jpg");
+    background-position-x: 60%;
+}
+
+.video-box2 {
+    background-image: url("/Medias/JaaRose.jpg");
+
+}
+
+.video-box3 {
+    background-image: url("/Medias/RovskiFeatFeloche.jpg");
+    background-position-x: 60%;
+
+}
+
+.video-box4 {
+    background-image: url("/Medias/LedgerTuto.jpg");
+    background-position-x: 45%;
+
+}
