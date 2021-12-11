@@ -1,8 +1,54 @@
-@import "/SCSS/responsive-queries.scss";
+@media (max-width: 1050px) {
+  .mainbox-container, .videobox-container {
+    width: 50%;
+  }
+
+  .video-box1, .video-box2, .video-box3, .video-box4 {
+    width: 100%;
+    height: 25vh;
+  }
+}
+@media (max-width: 700px) {
+  .video-box1, .video-box2, .video-box3, .video-box4 {
+    width: 100%;
+    height: 25vh;
+  }
+
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .mainbox-container, .videobox-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .yellow-line {
+    width: 100%;
+    height: 3px;
+    background-color: yellow;
+    z-index: 1;
+  }
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(/FONT/BebasNeue-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: Bebas Neue;
+  color: yellow;
+  font-size: 80px;
 }
 
 .psa {
@@ -37,6 +83,14 @@
 .homepage-container {
   display: flex;
   position: relative;
+}
+
+.firstname {
+  margin: 15px 0 0 25px;
+}
+
+.lastname {
+  margin: -25px 0 0 25px;
 }
 
 .mainbox-container {
@@ -101,43 +155,41 @@
 }
 
 @media (max-width: 1050px) {
-
   .mainbox-container, .videobox-container {
-      width: 50%;
+    width: 50%;
   }
 
-  .video-box1, .video-box2, .video-box3, .video-box4 { 
-      width: 100%;
-      height: 25vh;
+  .video-box1, .video-box2, .video-box3, .video-box4 {
+    width: 100%;
+    height: 25vh;
   }
 }
-
 @media (max-width: 700px) {
-
-  .video-box1, .video-box2, .video-box3, .video-box4 { 
-      width: 100%;
-      height: 25vh;
+  .video-box1, .video-box2, .video-box3, .video-box4 {
+    width: 100%;
+    height: 25vh;
   }
 
   .homepage-container {
-      display: flex;
-      flex-direction: column;
-      position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
 
   .mainbox-container, .videobox-container {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      width: 100%;
-      height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
   }
 
   .yellow-line {
-      width: 100%;
-      height: 3px;
-      background-color: yellow;
-      z-index: 1;
+    width: 100%;
+    height: 3px;
+    background-color: yellow;
+    z-index: 1;
   }
 }
+
 /*# sourceMappingURL=styles.css.map */
