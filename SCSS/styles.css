@@ -163,6 +163,15 @@ nav a:hover {
   height: 100vh;
 }
 
+.youtube-box {
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 50vh;
+}
+
 .video-box {
   width: 50%;
   overflow: hidden;
@@ -173,8 +182,8 @@ nav a:hover {
 }
 
 .video-box1 {
-  background-image: url("/Medias/LeoFiftyFive.jpg");
   background-position-x: 60%;
+  background-image: url("/Medias/LeoFiftyFive.jpg");
 }
 
 .video-box2 {
