@@ -1,109 +1,84 @@
-@import "responsive-queries.scss";
+@import "commons.scss";
 
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url(/FONT/BebasNeue-Regular.ttf);
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Bebas Neue;
-}
+// *------------------------------------------------* //
+// *---------  MAIN LEFT HOMEPAGE SECTION  ---------* //
+// *------------------------------------------------* //
 
-h1 {
-    color: yellow;
-    font-size: 80px;
-}
-
-nav {
-    ul {
-        color: yellow;
-        font-size: 40px;
-        margin: 30px 0 -5px 35px;
-        list-style-type: none;
-    }
-    
-    a {
-        text-decoration: none;
-        color: yellow;
-            &:hover {
-                color: #684849;
-            }  
-    }
-}
-
-.instagram {
-    width: 10%;
-    margin-top: 10px;
-}
-
-.psa {
-    position: absolute;
-}
-
-.psr {
-    position: relative;
-}
-
-.job-title {
-    color: yellow;
-    bottom: 0;
-    right: 0;
-    font-size: 50px;
-    text-align: right;
-    margin: 0 35px 25px 0;
-}
-
-.job1, .job2 {
-    margin-bottom: -10px;
-}
-
-.op80{
-    background-color: black;
-    opacity: 0.8;
-}
-
-.db {
-    display: block;
-}
-
-.w100 {
-    width: 100%;
-}
-
-.h100 {
-    height: 100%;
-}
-
-.t0 {
-    top: 0;
-}
-
-.l0 {
-    left: 0;
-}
 
 .homepage-container {
     display: flex;
     position: relative;
-}
 
-.firstname {
-    margin: 25px 0 0 35px;
-}
+    .mainbox-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 37.5%;
+        height: 100vh;
 
-.lastname {
-    margin: -25px 0 0 35px;
-}
+        .main-box{
+            width: 100%;
+            overflow: hidden; 
+            background-image: url("/Medias/Sombrero.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: 50%;
+            position: relative;
+            height: 100vh;
 
-.mainbox-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 37.5%;
-    height: 100vh;
+            .firstname {
+                margin: 25px 0 0 35px;
+            }
+            
+            .lastname {
+                margin: -25px 0 0 35px;
+            }
+
+            h1 {
+                color: yellow;
+                font-size: 80px;
+            }
+
+            nav {
+
+                ul {
+                    color: yellow;
+                    font-size: 40px;
+                    margin: 30px 0 -5px 35px;
+                    list-style-type: none;
+                    
+                    a {
+                        text-decoration: none;
+                        color: yellow;
+    
+                            &:hover {
+                                color: #684849;
+                            }  
+               
+                        }
+
+                    .instagram {
+                        width: 10%;
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+            .job-title {
+                color: yellow;
+                bottom: 0;
+                right: 0;
+                font-size: 50px;
+                text-align: right;
+                margin: 0 35px 25px 0;
+
+                .job1, .job2 {
+                    margin-bottom: -10px;
+                }
+            }
+        }
+    }
 }
 
 .yellow-line {
@@ -112,97 +87,34 @@ nav {
     background-color: yellow;
 }
 
-.videobox-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 62.5%;
-    height: 100vh;
-}
 
-.main-box{
-    width: 100%;
-    overflow: hidden; 
-    background-image: url("/Medias/Sombrero.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    position: relative;
-    height: 100vh;
-}
+// *--------  MAIN LEFT HOMEPAGE SECTION MEDIA QUERIES  --------* //
 
-.youtube-box {
-    width: 100%;
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 50vh;
-}
-
-.video-box {
-    width: 50%;
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 50vh;
-}
-
-.video-box1 {
-    background-position-x: 60%;
-    background-image: url("/Medias/LeoFiftyFive.jpg");
-
-}
-
-.video-box2 {
-    background-image: url("/Medias/JaaRose.jpg");
-
-}
-
-.video-box3 {
-    background-image: url("/Medias/RovskiFeatFeloche.jpg");
-    background-position-x: 60%;
-
-}
-
-.video-box4 {
-    background-image: url("/Medias/LedgerTuto.jpg");
-    background-position-x: 45%;
-
-} 
 
 @media (max-width: 1050px) {
 
-    .mainbox-container, .videobox-container {
-        width: 50%;
-    }
-
-    .video-box1, .video-box2, .video-box3, .video-box4 { 
-        width: 100%;
-        height: 25vh;
+    .homepage-container {
+        
+        .mainbox-container {
+            width: 50%; 
+        }
     }
 }
 
 @media (max-width: 700px) {
 
-    .video-box1, .video-box2, .video-box3, .video-box4 { 
-        width: 100%;
-        height: 50vh;
-    }
-
     .homepage-container {
         display: flex;
         flex-direction: column;
         position: relative;
-    }
 
-    .mainbox-container, .videobox-container {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100vh;
+        .mainbox-container {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 100vh;
+        }
     }
 
     .yellow-line {
@@ -210,6 +122,93 @@ nav {
         height: 3px;
         background-color: yellow;
         z-index: 1;
+    }
+}
+
+
+// *---------------------------------------------------* //
+// *------  MAIN RIGHT SQUARES HOMEPAGE SECTION  ------* //
+// *---------------------------------------------------* //
+
+
+.videobox-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 62.5%;
+    height: 100vh;
+    
+    .video-box {
+        width: 50%;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 50vh;
+    
+        .youtube-box {
+            width: 100%;
+            overflow: hidden;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            height: 50vh;
+        }
+    }
+    
+    .video-box1 {
+        background-position-x: 60%;
+        background-image: url("/Medias/LeoFiftyFive.jpg");
+    
+    }
+    
+    .video-box2 {
+        background-image: url("/Medias/JaaRose.jpg");
+    
+    }
+    
+    .video-box3 {
+        background-image: url("/Medias/RovskiFeatFeloche.jpg");
+        background-position-x: 60%;
+    
+    }
+    
+    .video-box4 {
+        background-image: url("/Medias/LedgerTuto.jpg");
+        background-position-x: 45%;
+    
+    } 
+}       
+
+
+// *----  MAIN RIGHT SQUARES HOMEPAGE SECTION MEDIA QUERIES ----* //
+
+
+@media (max-width: 1050px) {
+
+    .videobox-container {
+        width: 50%;
+        
+        .video-box1, .video-box2, .video-box3, .video-box4 { 
+            width: 100%;
+            height: 25vh;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    
+    .videobox-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        
+        .video-box1, .video-box2, .video-box3, .video-box4 { 
+            width: 100%;
+            height: 50vh;
+        }
     }
 }
 
