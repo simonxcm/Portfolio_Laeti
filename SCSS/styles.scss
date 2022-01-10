@@ -52,14 +52,13 @@
                         text-decoration: none;
                         color: yellow;
     
-                            &:hover {
-                                color: #684849;
-                            }  
-               
-                        }
+                        &:hover {
+                            color: #684849;
+                        }  
+                    }
 
-                    .instagram {
-                        width: 10%;
+                    & .instagram {
+                        width: 45px;
                         margin-top: 10px;
                     }
                 }
