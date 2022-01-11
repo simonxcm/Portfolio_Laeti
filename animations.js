@@ -1,12 +1,12 @@
 'use strict';
 
 
-function moveTitle() {
-    document.getElementById("videoBox-title").classList.add("horizontal-title");
+function fadeTitle() {
+    document.getElementById("videoBox-title").classList.add("fade-title");
 }
 
 function resetTitle() {
-    document.getElementById("videoBox-title").classList.remove("horizontal-title");
+    document.getElementById("videoBox-title").classList.remove("fade-title");
 }
 
 
