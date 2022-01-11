@@ -42,3 +42,10 @@
 .l0 {
     left: 0;
 }
+
+.shadow-mask {
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 4;
+}

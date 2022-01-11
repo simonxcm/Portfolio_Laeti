@@ -1,38 +1,26 @@
-
-document.addEventListener("DOMContentLoaded", function(){
-
-  let myGif = document
+'use strict';
 
 
-});
+function moveTitle() {
+    document.getElementById("videoBox-title").classList.add("horizontal-title");
+}
+
+function resetTitle() {
+    document.getElementById("videoBox-title").classList.remove("horizontal-title");
+}
 
 
 
+/* 
+function verticalTitlesOnHover() {
 
+    let navId = document.getElementById("navbar");
 
-// RESSOURCES
-
-$(document).ready(function()
-{
-    $("#imgDino").hover(
-        function()
-        {
-            $(this).attr("src", "http://www.sitevip.net/gifs/dinosaur/2348_animado.gif");
-        },
-        function()
-        {
-            $(this).attr("src", "http://bestuff.com/images/images_of_stuff/64x64crop/t-rex-51807.jpg?1176587870");
-        }                         
-    );                  
-});
-
-
-$('#toggle').addClass('active');
-
-let toggle = document.querySelector('#toggle');
-toggle.classList.add('active');
-
-
-var src = $('#myImg').attr('src');
-
-var src = document.getElementById('myImg').getAttribute('src');
+    if (navId.className === "topnav" || navId.className === "topnav sticky") {
+        navId.className += " responsive";
+    } else if (navId.className === "topnav sticky responsive") {
+        navId.className = "topnav sticky";
+    } else {
+        navId.className = "topnav";
+    }
+} */

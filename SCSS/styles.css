@@ -42,6 +42,13 @@
   left: 0;
 }
 
+.shadow-mask {
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  z-index: 4;
+}
+
 .homepage-container {
   display: flex;
   position: relative;
@@ -75,8 +82,8 @@
 }
 .homepage-container .mainbox-container .main-box nav ul {
   color: yellow;
-  font-size: 40px;
-  margin: 30px 0 -5px 35px;
+  font-size: 25px;
+  margin: 20px 0 -5px 35px;
   list-style-type: none;
 }
 .homepage-container .mainbox-container .main-box nav ul a {
@@ -94,7 +101,7 @@
   color: yellow;
   bottom: 0;
   right: 0;
-  font-size: 50px;
+  font-size: 30px;
   text-align: right;
   margin: 0 35px 25px 0;
 }
@@ -140,11 +147,6 @@
   flex-wrap: wrap;
   width: 62.5%;
   height: 100vh;
-  /*.video-box4 {
-      background-image: url("/Medias/LedgerTuto.jpg");
-      background-position-x: 45%;
-
-  } */
 }
 .videobox-container .video-box {
   width: 50%;
@@ -154,13 +156,61 @@
   position: relative;
   height: 50vh;
 }
-.videobox-container .video-box .youtube-box {
-  width: 100%;
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 50vh;
+.videobox-container .video-box .box-title {
+  color: yellow;
+  top: 0;
+  left: 0;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0 0 15px;
+  z-index: 2;
+}
+.videobox-container .video-box .horizontal-title {
+  animation: fadeIn 2s forwards;
+  -webkit-animation: fadeIn 2s forwards;
+  -moz-animation: fadeIn 2s forwards;
+  -o-animation: fadeIn 2s forwards;
+  -ms-animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 .videobox-container .video-box1 {
   background-position-x: 60%;
@@ -172,6 +222,10 @@
 .videobox-container .video-box3 {
   background-image: url("/Medias/RovskiFeatFeloche.jpg");
   background-position-x: 60%;
+}
+.videobox-container .video-box4 {
+  transform: translateX(-20%);
+  height: 100%;
 }
 
 @media (max-width: 1050px) {

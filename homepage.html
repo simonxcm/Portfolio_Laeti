@@ -16,31 +16,32 @@
                <div>
                     <nav>
                         <ul>
-                            <li><a href="#">ABOUT ME</a></li>
-                            <li><a href="#">PROJECTS</a></li>
-                            <li><a href="#">CONTACT</a></li>
+                            <li><h2><a href="#">ABOUT ME</a></h2></li>
+                            <li><h2><a href="#">PROJECTS</a></h2></li>
+                            <li><h2><a href="#">CONTACT</a></h2></li>
                             <img href="#" class="instagram" src="/Medias/instagram.png" alt="instagram">
                         </ul>
                     </nav>
                </div>
                <div class="job-title psa">
-                    <div class="job1">PRODUCTION</div>
-                    <div class="job2">& REALISATION</div>
-                    <div class="job3">AUDIOVISUELLE</div>
+                    <div class="job1"><h2>PRODUCTION</h2></div>
+                    <div class="job2"><h2>& REALISATION</h2></div>
+                    <div class="job3"><h2>AUDIOVISUELLE</h2></div>
                 </div>
            </div> 
         </div>
         <div class="yellow-line"></div>
         <div class="videobox-container">
             <div class="video-box video-box1 psa">
-                <iframe class="youtube-box psa" width="auto" height="auto" src="https://www.youtube.com/embed/fBO-MktKJzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="video-box video-box2 psa"></div>
             <div class="video-box video-box3 psa">
-                <iframe class="youtube-box psa" width="560" height="315" src="https://www.youtube.com/embed/-GRx-CYZSNo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-GRx-CYZSNo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="video-box video-box4 psa">
-                <img class="youtube-box psa" src="/Medias/tutoledge_thumbnail.jpg" alt="tutoledge">
+            <div onmouseover="moveTitle()" onmouseout="resetTitle()" id="videoBox-4" class="video-box psa">
+                <h3 id="videoBox-title" class="box-title psa">LEDGER TUTO</h3>
+                <img id="myGif" onmouseover="this.src='/Medias/tutoledge.gif'" onmouseout="this.src='/Medias/tutoledge_thumbnail.jpg'" class="video-box4" src="/Medias/tutoledge_thumbnail.jpg" alt="tutoledge">
+               
             </div>
         </div>
     </div>
