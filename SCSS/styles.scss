@@ -160,40 +160,9 @@
             z-index: 2;
         }
 
-        .title {
-            // fadeIn animation
-            animation: fadeIn 1.5s forwards;
-            -webkit-animation: fadeIn 1.5s forwards;
-            -moz-animation: fadeIn 1.5s forwards;
-            -o-animation: fadeIn 1.5s forwards;
-            -ms-animation: fadeIn 1.5s forwards;
+        .mouseenter-title{
+            color: white !important;
         }
- 
-        @keyframes fadeIn {
-            0% {color: yellow;}
-            100% {color: black;}
-        }
-        
-        @-moz-keyframes fadeIn {
-            0% {color: yellow;}
-            100% {color: black;}
-        }
-        
-        @-webkit-keyframes fadeIn {
-            0% {color: yellow;}
-            100% {color: black;}
-        }
-        
-        @-o-keyframes fadeIn {
-            0% {color: yellow;}
-            100% {color: black;}
-        }
-        
-        @-ms-keyframes fadeIn {
-            0% {color: yellow;}
-            100% {color: black;}
-        }
-        
     }
 
        
@@ -217,6 +186,7 @@
     .video-box4 {
         transform: translateX(-20%);
         height: 100%;
+
     } 
 }       
 

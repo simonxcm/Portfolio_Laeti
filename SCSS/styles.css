@@ -42,11 +42,12 @@
   left: 0;
 }
 
-.shadow-mask {
-  background-color: black;
-  opacity: 0.7;
-  position: absolute;
-  z-index: 4;
+.display-none {
+  display: none;
+}
+
+.shadow5 {
+  opacity: 0.5;
 }
 
 .homepage-container {
@@ -168,52 +169,8 @@
   margin: 10px 0 0 15px;
   z-index: 2;
 }
-.videobox-container .video-box .title {
-  animation: fadeIn 1.5s forwards;
-  -webkit-animation: fadeIn 1.5s forwards;
-  -moz-animation: fadeIn 1.5s forwards;
-  -o-animation: fadeIn 1.5s forwards;
-  -ms-animation: fadeIn 1.5s forwards;
-}
-@keyframes fadeIn {
-  0% {
-    color: yellow;
-  }
-  100% {
-    color: black;
-  }
-}
-@-moz-keyframes fadeIn {
-  0% {
-    color: yellow;
-  }
-  100% {
-    color: black;
-  }
-}
-@-webkit-keyframes fadeIn {
-  0% {
-    color: yellow;
-  }
-  100% {
-    color: black;
-  }
-}
-@-o-keyframes fadeIn {
-  0% {
-    color: yellow;
-  }
-  100% {
-    color: black;
-  }
-}
-@-ms-keyframes fadeIn {
-  0% {
-    color: yellow;
-  }
-  100% {
-    color: black;
-  }
+.videobox-container .video-box .mouseenter-title {
+  color: white !important;
 }
 .videobox-container .video-box1 {
   background-position-x: 60%;
