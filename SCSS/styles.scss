@@ -45,8 +45,13 @@
                 ul {
                     color: yellow;
                     font-size: 25px;
-                    margin: 20px 0 -5px 35px;
+                    margin: 20px 0 0 35px;
                     list-style-type: none;
+
+                    h2 {
+                        margin-bottom: -5px;
+                    }
+
                     
                     a {
                         text-decoration: none;
@@ -155,7 +160,7 @@
             z-index: 2;
         }
 
-        .fade-title {
+        .title {
             // fadeIn animation
             animation: fadeIn 1.5s forwards;
             -webkit-animation: fadeIn 1.5s forwards;

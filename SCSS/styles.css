@@ -83,8 +83,11 @@
 .homepage-container .mainbox-container .main-box nav ul {
   color: yellow;
   font-size: 25px;
-  margin: 20px 0 -5px 35px;
+  margin: 20px 0 0 35px;
   list-style-type: none;
+}
+.homepage-container .mainbox-container .main-box nav ul h2 {
+  margin-bottom: -5px;
 }
 .homepage-container .mainbox-container .main-box nav ul a {
   text-decoration: none;
@@ -165,7 +168,7 @@
   margin: 10px 0 0 15px;
   z-index: 2;
 }
-.videobox-container .video-box .fade-title {
+.videobox-container .video-box .title {
   animation: fadeIn 1.5s forwards;
   -webkit-animation: fadeIn 1.5s forwards;
   -moz-animation: fadeIn 1.5s forwards;
