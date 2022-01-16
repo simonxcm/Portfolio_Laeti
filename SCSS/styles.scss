@@ -59,7 +59,7 @@
                         color: yellow;
     
                         &:hover {
-                            color: #684849;
+                            color: white;
                         }  
                     }
 
@@ -82,15 +82,16 @@
                     margin-bottom: -10px;
                 }
             }
+            
+            .yellow-line {
+                width: 3px;
+                height: 100vh;   
+                background-color: yellow;
+            }
         }
     }
 }
 
-.yellow-line {
-    width: 3px;
-    height: 100vh;
-    background-color: yellow;
-}
 
 
 // *--------  MAIN LEFT HOMEPAGE SECTION MEDIA QUERIES  --------* //
@@ -195,15 +196,31 @@
 
     width: 62.5%;
 
-    img {
+    .contact-container {
+        text-align: center;    
+        
+        img {
         width: 250px;
+        margin-bottom: 60px;
+        }
 
+        p {
+            color: yellow;
+            width: 60%;
+            margin: auto;
+            font-weight: lighter;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: yellow;
+            margin-top: 60px;
+        }
     }
+
 }
 
-.contact-container {
-    text-align: center;
-}
+
 
 
 // *----  MAIN RIGHT SQUARES HOMEPAGE SECTION MEDIA QUERIES ----* //

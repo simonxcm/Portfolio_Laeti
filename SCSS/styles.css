@@ -96,7 +96,7 @@
   color: yellow;
 }
 .homepage-container .mainbox-container .main-box nav ul a:hover {
-  color: #684849;
+  color: white;
 }
 .homepage-container .mainbox-container .main-box nav ul .instagram {
   width: 45px;
@@ -113,8 +113,7 @@
 .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
   margin-bottom: -10px;
 }
-
-.yellow-line {
+.homepage-container .mainbox-container .main-box .yellow-line {
   width: 3px;
   height: 100vh;
   background-color: yellow;
@@ -192,12 +191,23 @@
 .videobox-container-contact {
   width: 62.5%;
 }
-.videobox-container-contact img {
-  width: 250px;
-}
-
-.contact-container {
+.videobox-container-contact .contact-container {
   text-align: center;
+}
+.videobox-container-contact .contact-container img {
+  width: 250px;
+  margin-bottom: 60px;
+}
+.videobox-container-contact .contact-container p {
+  color: yellow;
+  width: 60%;
+  margin: auto;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.videobox-container-contact .contact-container h1 {
+  color: yellow;
+  margin-top: 60px;
 }
 
 @media (max-width: 1050px) {
