@@ -9,6 +9,7 @@
 .homepage-container {
     display: flex;
     position: relative;
+    background-color: #171717;
 
     .mainbox-container {
         display: flex;
@@ -168,17 +169,17 @@
        
     .video-box1 {
         background-position-x: 60%;
-        background-image: url("/Medias/LeoFiftyFive.jpg");
+        background-image: url("/");
     
     }
     
     .video-box2 {
-        background-image: url("/Medias/JaaRose.jpg");
+        background-image: url("/");
     
     }
     
     .video-box3 {
-        background-image: url("/Medias/RovskiFeatFeloche.jpg");
+        background-image: url("/");
         background-position-x: 60%;
     
     }
@@ -188,7 +189,21 @@
         height: 100%;
 
     } 
-}       
+}  
+
+.videobox-container-contact {
+
+    width: 62.5%;
+
+    img {
+        width: 250px;
+
+    }
+}
+
+.contact-container {
+    text-align: center;
+}
 
 
 // *----  MAIN RIGHT SQUARES HOMEPAGE SECTION MEDIA QUERIES ----* //
