@@ -119,6 +119,10 @@
   background-color: yellow;
 }
 
+.box-shadow {
+  box-shadow: 10px 0 20px black;
+}
+
 @media (max-width: 1050px) {
   .homepage-container .mainbox-container {
     width: 50%;
@@ -195,15 +199,8 @@
   text-align: center;
 }
 .videobox-container-contact .contact-container img {
-  width: 250px;
+  width: 400px;
   margin-bottom: 60px;
-}
-.videobox-container-contact .contact-container p {
-  color: yellow;
-  width: 60%;
-  margin: auto;
-  font-weight: lighter;
-  font-size: 20px;
 }
 .videobox-container-contact .contact-container h1 {
   color: yellow;

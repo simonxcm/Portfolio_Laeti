@@ -92,6 +92,10 @@
     }
 }
 
+.box-shadow {
+    box-shadow: 10px 0 20px (rgb(0, 0, 0));
+}
+
 
 
 // *--------  MAIN LEFT HOMEPAGE SECTION MEDIA QUERIES  --------* //
@@ -200,16 +204,8 @@
         text-align: center;    
         
         img {
-        width: 250px;
+        width: 400px;
         margin-bottom: 60px;
-        }
-
-        p {
-            color: yellow;
-            width: 60%;
-            margin: auto;
-            font-weight: lighter;
-            font-size: 20px;
         }
 
         h1 {
