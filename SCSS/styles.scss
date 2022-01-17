@@ -183,16 +183,13 @@
             color: white !important;
         }
     }
-
        
     .video-box2 {
         background-position-x: 60%;
         background-image: url("/");
-        opacity: 0.2; 
+        opacity: 0.4; 
     }
 
-
-    
     .video-box3 {
         background-image: url("/");
     
@@ -205,13 +202,10 @@
     }
     
     .video-box5 {
-        transform: translateX(-20%);
         height: 100%;
-        opacity: 0.2; 
+        opacity: 0.4; 
     } 
 } 
-
-
 
 .videobox-container-contact {
 
@@ -236,7 +230,14 @@
 #video-title2 {
     display: none;
     font-size: 50px;
-    margin-left: 30px;
+    margin:28px 0 0 35px;
+}
+
+#video-title5 {
+    display: none;
+    font-size: 50px;
+    margin:28px 0 0 35px;
+
 }
 
 
@@ -304,6 +305,7 @@
     position: absolute;
     top: 0;
     background-color: #171717;
+    box-shadow: 3px 0 15px (rgb(0, 0, 0));
 }
 
 .instagram {
@@ -327,5 +329,3 @@
         color: white;
     }
 }
-
-
