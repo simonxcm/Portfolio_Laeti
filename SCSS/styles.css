@@ -50,14 +50,33 @@ body {
   display: none;
 }
 
+.display {
+  display: block;
+}
+
 .shadow5 {
   opacity: 0.5;
+}
+
+.opacity {
+  opacity: 1 !important;
+}
+
+.display-title {
+  color: white !important;
+  display: block !important;
 }
 
 .homepage-container {
   display: flex;
   position: relative;
   background-color: #171717;
+}
+.homepage-container .yellow-line {
+  width: 3px;
+  height: 100vh;
+  background-color: yellow;
+  z-index: 1;
 }
 .homepage-container .mainbox-container {
   display: flex;
@@ -80,6 +99,9 @@ body {
 .homepage-container .mainbox-container .main-box a {
   text-decoration: none;
   color: yellow;
+}
+.homepage-container .mainbox-container .main-box a:hover {
+  opacity: 0.5;
 }
 .homepage-container .mainbox-container .main-box .firstname {
   margin: 25px 0 0 35px;
@@ -123,12 +145,6 @@ body {
 }
 .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
   margin-bottom: -10px;
-}
-.homepage-container .mainbox-container .main-box .yellow-line {
-  width: 3px;
-  height: 100vh;
-  background-color: yellow;
-  z-index: 1;
 }
 
 .box-shadow {
@@ -188,25 +204,22 @@ body {
 .videobox-container .video-box .mouseenter-title {
   color: white !important;
 }
-.videobox-container .video-box1 {
+.videobox-container .video-box2 {
   background-position-x: 60%;
   background-image: url("/");
   opacity: 0.2;
 }
-.videobox-container .video-box2 {
+.videobox-container .video-box3 {
   background-image: url("/");
 }
-.videobox-container .video-box3 {
+.videobox-container .video-box4 {
   background-image: url("/");
   background-position-x: 60%;
 }
-.videobox-container .video-box4 {
+.videobox-container .video-box5 {
   transform: translateX(-20%);
   height: 100%;
-}
-
-.opacity {
-  opacity: 1 !important;
+  opacity: 0.2;
 }
 
 .videobox-container-contact {
@@ -222,6 +235,12 @@ body {
 .videobox-container-contact .contact-container h1 {
   color: yellow;
   margin-top: 60px;
+}
+
+#video-title2 {
+  display: none;
+  font-size: 50px;
+  margin-left: 30px;
 }
 
 @media (max-width: 1050px) {

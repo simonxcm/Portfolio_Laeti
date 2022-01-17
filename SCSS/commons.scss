@@ -52,7 +52,19 @@ body {
     display: none;
 }
 
+.display {
+    display: block;
+}
+
 .shadow5 {
     opacity: 0.5;
 }
 
+.opacity {
+    opacity: 1 !important;
+}  
+
+.display-title {
+    color: white !important;
+    display: block !important;
+}

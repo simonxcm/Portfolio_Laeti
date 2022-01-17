@@ -10,6 +10,13 @@
     display: flex;
     position: relative;
     background-color: #171717;
+                
+    .yellow-line {
+        width: 3px;
+        height: 100vh;   
+        background-color: yellow;
+        z-index: 1;
+    }
 
     .mainbox-container {
         display: flex;
@@ -32,6 +39,10 @@
             a {
                 text-decoration:  none;
                 color: yellow;
+
+                &:hover {
+                    opacity: 0.5;
+                }
             }
 
             .firstname {
@@ -90,13 +101,6 @@
                 .job1, .job2 {
                     margin-bottom: -10px;
                 }
-            }
-            
-            .yellow-line {
-                width: 3px;
-                height: 100vh;   
-                background-color: yellow;
-                z-index: 1;
             }
         }
     }
@@ -181,7 +185,7 @@
     }
 
        
-    .video-box1 {
+    .video-box2 {
         background-position-x: 60%;
         background-image: url("/");
         opacity: 0.2; 
@@ -189,27 +193,25 @@
 
 
     
-    .video-box2 {
+    .video-box3 {
         background-image: url("/");
     
     }
     
-    .video-box3 {
+    .video-box4 {
         background-image: url("/");
         background-position-x: 60%;
     
     }
     
-    .video-box4 {
+    .video-box5 {
         transform: translateX(-20%);
         height: 100%;
-
+        opacity: 0.2; 
     } 
 } 
 
-.opacity {
-    opacity: 1 !important;
-}  
+
 
 .videobox-container-contact {
 
@@ -229,6 +231,12 @@
         }
     }
 
+}
+
+#video-title2 {
+    display: none;
+    font-size: 50px;
+    margin-left: 30px;
 }
 
 
