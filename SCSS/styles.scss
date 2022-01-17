@@ -15,6 +15,7 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        z-index: 1;
         width: 37.5%;
         height: 100vh;
 
@@ -98,7 +99,7 @@
 }
 
 .box-shadow {
-    box-shadow: 10px 0 20px (rgb(0, 0, 0));
+    box-shadow: 5px 0 20px (rgb(0, 0, 0));
 }
 
 
