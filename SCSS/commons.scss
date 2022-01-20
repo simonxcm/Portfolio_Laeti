@@ -8,6 +8,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Bebas Neue;
+
+}
+
+body {
+    background-color: #171717;
 }
 
 .psa {
@@ -43,9 +48,20 @@
     left: 0;
 }
 
-.shadow-mask {
-    background-color: black;
-    opacity: 0.7;
-    position: absolute;
-    z-index: 4;
+.display-none {
+    display: none;
+}
+
+.display {
+    display: block;
+}
+
+
+.opacity {
+    opacity: 1 !important;
+}  
+
+.display-title {
+    color: white !important;
+    display: block !important;
 }
