@@ -142,6 +142,9 @@ body {
 .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
   margin-bottom: -10px;
 }
+.homepage-container .mainbox-container .main-box #video-one {
+  height: 100%;
+}
 
 .box-shadow {
   box-shadow: 3px 0 30px black;
@@ -203,17 +206,27 @@ body {
 .videobox-container .video-box2 {
   opacity: 0.4;
 }
-.videobox-container .video-box2 .video-two {
-  transform: translateX(-20%);
+.videobox-container .video-box2 #video-two {
+  height: 100%;
+  transform: translateX(-15%);
 }
 .videobox-container .video-box3 {
   opacity: 0.4;
 }
+.videobox-container .video-box3 #video-three {
+  height: 100%;
+}
 .videobox-container .video-box4 {
   opacity: 0.4;
 }
+.videobox-container .video-box4 #video-four {
+  height: 100%;
+}
 .videobox-container .video-box5 {
   opacity: 0.4;
+}
+.videobox-container .video-box5 #video-five {
+  height: 100%;
 }
 
 .videobox-container-contact {

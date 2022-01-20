@@ -102,9 +102,15 @@
                     margin-bottom: -10px;
                 }
             }
+
+            #video-one {
+                height: 100%;
+            }
         }
     }
 }
+
+
 
 .box-shadow {
     box-shadow: 3px 0 30px (rgb(0, 0, 0));
@@ -187,21 +193,34 @@
     .video-box2 {
         opacity: 0.4; 
 
-        .video-two {
-            transform: translateX(-20%);
+        #video-two {
+            height: 100%;
+            transform: translateX(-15%);
         }
     }
 
     .video-box3 {
-        opacity: 0.4; 
+        opacity: 0.4;
+        
+        #video-three {
+            height: 100%;
+        }
     }
     
     .video-box4 {
         opacity: 0.4; 
+
+        #video-four {
+            height: 100%;
+        }
     }
     
     .video-box5 {
         opacity: 0.4; 
+
+        #video-five {
+            height: 100%;
+        }
     } 
 } 
 
