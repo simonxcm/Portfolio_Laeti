@@ -144,6 +144,7 @@ body {
 }
 .homepage-container .mainbox-container .main-box #video-one {
   height: 100%;
+  margin-left: -260px;
 }
 
 .box-shadow {
