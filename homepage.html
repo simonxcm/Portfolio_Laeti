@@ -9,17 +9,16 @@
 </head>
 <body>
     <div class="homepage-container">
-        <div class="mainbox-container">
+        <div class="mainbox-container box-shadow">
            <div class="main-box psr">
-               <div class="firstname"><h1>LAETITIA</h1></div>
-               <div class="lastname"><h1>OUEDRAOGO</h1></div>
+               <div class="firstname"><h1><a href="homepage.html">LAETITIA</a> </h1></div>
+               <div class="lastname"><h1><a href="homepage.html">OUEDRAOGO</a></h1></div>
                <div>
                     <nav>
                         <ul>
-                            <li><h2><a href="#">ABOUT ME</a></h2></li>
-                            <li><h2><a href="#">PROJECTS</a></h2></li>
-                            <li><h2><a href="#">CONTACT</a></h2></li>
-                            <img href="#" class="instagram" src="/Medias/instagram.png" alt="instagram">
+                            <li><h2><a href="video1.html">PROJECTS</a></h2></li>
+                            <li><h2><a href="contact.html">LET'S CREATE TOGETHER</a></h2></li>
+                            <span><img href="instagram.com/laetishirt" class="instagram" src="/Medias/instagram.png" alt="instagram"></span>
                         </ul>
                     </nav>
                </div>
@@ -30,18 +29,27 @@
                 </div>
            </div> 
         </div>
-        <div class="yellow-line"></div>
+
         <div class="videobox-container">
-            <div class="video-box video-box1 psa">
+
+            <div id="video-box2" onclick="window.location = 'video2.html';" onmouseover="playVid2()" onmouseout="pauseVid2()" class="video-box video-box2 psa">
+                <h3 id="video-title2" class="box-title psa">IDENTITÉ</h3>
+                <video loop id="video-two" class=" " src="/Medias/IDENTITE.mp4" alt=></video>
             </div>
-            <div class="video-box video-box2 psa"></div>
-            <div class="video-box video-box3 psa">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/-GRx-CYZSNo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div id="video-box3" onclick="window.location = 'video3.html';" onmouseover="playVid3()" onmouseout="pauseVid3()"class="video-box video-box3 psa">
+                <h3 id="video-title3" class="box-title psa">LEO FIFTY FIVE</h3>
+                <video loop id="video-three" class=" " src="/Medias/LEO FIFTY FIVE.mp4" alt=></video>
             </div>
-            <div onmouseover="fadeTitle()" onmouseout="resetTitle()" id="videoBox-4" class="video-box psr">
-                <h3 id="videoBox-title" class="box-title psa">LEDGER TUTO</h3>
-                <img id="myGif" onmouseover="this.src='/Medias/tutoledge.gif'" onmouseout="this.src='/Medias/tutoledge_thumbnail.jpg'" class="video-box4 psa" src="/Medias/tutoledge_thumbnail.jpg" alt="tutoledge">
-               
+            
+            <div id="video-box4" onclick="window.location = 'video4.html';" onmouseover="playVid4()" onmouseout="pauseVid4()"class="video-box video-box4 psa">
+                <h3 id="video-title4" class="box-title psa">SOMBRERO</h3>
+                <video loop id="video-four" class=" " src="/Medias/SOMBRERO.mp4" alt=></video>
+            </div>
+            
+            <div id="video-box5" onclick="window.location = 'video5.html';" onmouseover="playVid5()" onmouseout="pauseVid5()" class="video-box video-box5 psr">
+                <h3 id="video-title5" class="box-title psa">JAIA</h3>
+                <video loop id="video-five" class=" " src="/Medias/LE_FAIR_2020_JAIA.mp4" alt="ledgertuto"> </video>
             </div>
         </div>
     </div>
