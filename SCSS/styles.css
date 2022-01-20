@@ -86,10 +86,6 @@ body {
 .homepage-container .mainbox-container .main-box {
   width: 100%;
   overflow: hidden;
-  background-image: url("/Medias/Sombrero.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
   position: relative;
   height: 100vh;
 }
@@ -112,7 +108,7 @@ body {
 }
 .homepage-container .mainbox-container .main-box nav ul {
   color: yellow;
-  font-size: 25px;
+  font-size: 30px;
   margin: 20px 0 0 35px;
   list-style-type: none;
 }
@@ -124,12 +120,6 @@ body {
   color: yellow;
 }
 .homepage-container .mainbox-container .main-box nav ul a:hover {
-  color: white;
-}
-.homepage-container .mainbox-container .main-box nav ul .instagram {
-  width: 45px;
-}
-.homepage-container .mainbox-container .main-box nav ul .instagram:hover {
   color: white;
 }
 .homepage-container .mainbox-container .main-box .job-title {
@@ -238,21 +228,6 @@ body {
   height: 100%;
 }
 
-.videobox-container-contact {
-  width: 62.5%;
-}
-.videobox-container-contact .contact-container {
-  text-align: center;
-}
-.videobox-container-contact .contact-container img {
-  width: 400px;
-  margin-bottom: 60px;
-}
-.videobox-container-contact .contact-container h1 {
-  color: yellow;
-  margin-top: 60px;
-}
-
 #video-title2 {
   display: none;
   font-size: 50px;
@@ -348,6 +323,28 @@ body {
 }
 .left-container span li a:first-child {
   color: white;
+}
+
+.videobox-container-contact {
+  width: 62.5%;
+}
+.videobox-container-contact .contact-container {
+  text-align: center;
+}
+.videobox-container-contact .contact-container img {
+  width: 400px;
+  margin-bottom: 50px;
+}
+.videobox-container-contact .contact-container h1 {
+  margin-top: 30px;
+}
+.videobox-container-contact .contact-container h1 a {
+  text-decoration: none;
+  color: yellow;
+}
+.videobox-container-contact .contact-container .instagram {
+  width: 35px;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
