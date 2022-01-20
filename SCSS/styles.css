@@ -54,10 +54,6 @@ body {
   display: block;
 }
 
-.shadow5 {
-  opacity: 0.5;
-}
-
 .opacity {
   opacity: 1 !important;
 }
@@ -101,7 +97,7 @@ body {
   color: yellow;
 }
 .homepage-container .mainbox-container .main-box a:hover {
-  opacity: 0.5;
+  color: white;
 }
 .homepage-container .mainbox-container .main-box .firstname {
   margin: 25px 0 0 35px;
@@ -127,13 +123,13 @@ body {
   color: yellow;
 }
 .homepage-container .mainbox-container .main-box nav ul a:hover {
-  opacity: 0.5;
+  color: white;
 }
 .homepage-container .mainbox-container .main-box nav ul .instagram {
   width: 45px;
 }
 .homepage-container .mainbox-container .main-box nav ul .instagram:hover {
-  opacity: 0.5;
+  color: white;
 }
 .homepage-container .mainbox-container .main-box .job-title {
   color: yellow;
@@ -148,7 +144,7 @@ body {
 }
 
 .box-shadow {
-  box-shadow: 3px 0 15px black;
+  box-shadow: 3px 0 30px black;
 }
 
 @media (max-width: 1050px) {

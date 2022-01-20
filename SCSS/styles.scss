@@ -41,7 +41,7 @@
                 color: yellow;
 
                 &:hover {
-                    opacity: 0.5;
+                    color: white;
                 }
             }
 
@@ -76,7 +76,7 @@
                         color: yellow;
     
                         &:hover {
-                            opacity: 0.5;;
+                            color: white;
                         }  
                     }
 
@@ -84,7 +84,7 @@
                         width: 45px;
 
                         &:hover {
-                            opacity: 0.5;
+                            color: white;
                         }
                     }
                 }
@@ -107,7 +107,7 @@
 }
 
 .box-shadow {
-    box-shadow: 3px 0 15px (rgb(0, 0, 0));
+    box-shadow: 3px 0 30px (rgb(0, 0, 0));
 }
 
 
