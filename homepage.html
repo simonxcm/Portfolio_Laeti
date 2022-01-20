@@ -10,18 +10,17 @@
 <body>
     <div class="homepage-container">
         <div class="mainbox-container box-shadow">
-           <div id="main-box" onclick="window.location = 'video2.html';" onmouseover="playVid1()" onmouseout="pauseVid1()" class="main-box ">
+           <div onmouseenter="playVid1()" onmouseleave="pauseVid1()" id="main-box" onclick="window.location = 'video2.html';"  class="main-box ">
                <div class="h100 w100 psa">
                     <div class="firstname"><h1><a href="homepage.html">LAETITIA</a> </h1></div>
                     <div class="lastname"><h1><a href="homepage.html">OUEDRAOGO</a></h1></div>
                     <div>
-                            <nav>
-                                <ul>
-                                    <li><h2><a href="#">PROJECTS</a></h2></li>
-                                    <li><h2><a href="contact.html">LET'S CREATE TOGETHER</a></h2></li>
-                                    <span><img href="instagram.com/laetishirt" class="instagram" src="/Medias/instagram.png" alt="instagram"></span>
-                                </ul>
-                            </nav>
+                        <nav>
+                            <ul>
+                                <li><h2><a onmouseover="pauseVid1()" onmouseout="playVid1()" href="contact.html">LET'S CREATE TOGETHER</a></h2></li>
+                                <span><img href="instagram.com/laetishirt" class="instagram" src="/Medias/instagram.png" alt="instagram"></span>
+                            </ul>
+                        </nav>
                     </div>
                     <div class="job-title psa">
                         <div class="job1"><h2>PRODUCTION</h2></div>
@@ -33,7 +32,6 @@
                 <video loop id="video-one" class="" src="/Medias/LIBERTE_SANS_NOM.mp4" alt="LIBERTE_SANS_NOM"></video>
            </div> 
         </div>
-
         <div class="videobox-container">
 
             <div id="video-box2" onclick="window.location = 'video2.html';" onmouseover="playVid2()" onmouseout="pauseVid2()" class="video-box video-box2 ">

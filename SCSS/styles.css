@@ -54,7 +54,7 @@ body {
   display: block;
 }
 
-.opacity {
+.opacity1 {
   opacity: 1 !important;
 }
 
@@ -67,12 +67,13 @@ body {
   display: flex;
   position: relative;
   background-color: #171717;
-}
-.homepage-container .yellow-line {
-  width: 3px;
-  height: 100vh;
-  background-color: yellow;
-  z-index: 1;
+  /*.yellow-line {
+      width: 10px;
+      height: 100vh;   
+      background-color: yellow;
+      opacity: 0.8;
+      z-index: 1;
+  }*/
 }
 .homepage-container .mainbox-container {
   display: flex;
@@ -141,6 +142,13 @@ body {
 }
 .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
   margin-bottom: -10px;
+}
+.homepage-container .mainbox-container .main-box #video-title1 {
+  display: none;
+  font-size: 50px;
+  margin: 40px 25px 0 0;
+  right: 0;
+  writing-mode: sideways-lr;
 }
 .homepage-container .mainbox-container .main-box #video-one {
   height: 100%;
@@ -248,28 +256,28 @@ body {
 #video-title2 {
   display: none;
   font-size: 50px;
-  margin: 28px 0 0 28px;
+  margin: 40px 0 0 28px;
   writing-mode: sideways-lr;
 }
 
 #video-title3 {
   display: none;
   font-size: 50px;
-  margin: 28px 0 0 28px;
+  margin: 40px 0 0 28px;
   writing-mode: sideways-lr;
 }
 
 #video-title4 {
   display: none;
   font-size: 50px;
-  margin: 28px 0 0 28px;
+  margin: 40px 0 0 28px;
   writing-mode: sideways-lr;
 }
 
 #video-title5 {
   display: none;
   font-size: 50px;
-  margin: 28px 0 0 28px;
+  margin: 40px 0 0 28px;
   writing-mode: sideways-lr;
 }
 

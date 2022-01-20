@@ -11,12 +11,13 @@
     position: relative;
     background-color: #171717;
                 
-    .yellow-line {
-        width: 3px;
+    /*.yellow-line {
+        width: 10px;
         height: 100vh;   
         background-color: yellow;
+        opacity: 0.8;
         z-index: 1;
-    }
+    }*/
 
     .mainbox-container {
         display: flex;
@@ -101,6 +102,14 @@
                 .job1, .job2 {
                     margin-bottom: -10px;
                 }
+            }
+
+            #video-title1 {
+                display: none;
+                font-size: 50px;
+                margin:40px 25px 0 0;
+                right: 0;
+                writing-mode: sideways-lr;
             }
 
             #video-one {
@@ -246,28 +255,28 @@
 #video-title2 {
     display: none;
     font-size: 50px;
-    margin:28px 0 0 28px;
+    margin:40px 0 0 28px;
     writing-mode: sideways-lr;
 }
 
 #video-title3 {
     display: none;
     font-size: 50px;
-    margin:28px 0 0 28px;
+    margin:40px 0 0 28px;
     writing-mode: sideways-lr;
 }
 
 #video-title4 {
     display: none;
     font-size: 50px;
-    margin:28px 0 0 28px;
+    margin:40px 0 0 28px;
     writing-mode: sideways-lr;
 }
 
 #video-title5 {
     display: none;
     font-size: 50px;
-    margin:28px 0 0 28px;
+    margin:40px 0 0 28px;
     writing-mode: sideways-lr;
 }
 
