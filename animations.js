@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let video1 = document.getElementById('video-one');
     let videoTitle1 = document.getElementById('video-title1')
 
-    square1.addEventListener('mouseenter', function (e) {
+    square1.addEventListener('mouseenter', function () {
         video1.classList.add('opacity1');
         videoTitle1.classList.add('display-title');
     });
@@ -19,12 +19,24 @@ document.addEventListener('DOMContentLoaded', function () {
         videoTitle1.classList.remove('display-title');
     })
 
+    // TACTILE
+
+    square1.addEventListener('touchend', function () {
+        video1.classList.remove('opacity1');
+        videoTitle1.classList.remove('display-title');
+    })
+
+    square1.addEventListener('touchstart', function () {
+        video1.classList.add('opacity1');
+        videoTitle1.classList.add('display-title');
+    });
+
     // *---------------  SQUARE 2  --------------* //
 
     let square2 = document.getElementById('video-box2');
     let videoTitle2 = document.getElementById('video-title2')
 
-    square2.addEventListener('mouseenter', function (e) {
+    square2.addEventListener('mouseenter', function () {
         square2.classList.add('opacity1');
         videoTitle2.classList.add('display-title');
     });
@@ -34,12 +46,24 @@ document.addEventListener('DOMContentLoaded', function () {
         videoTitle2.classList.remove('display-title');
     })
 
+    // TACTILE
+
+    square2.addEventListener('touchstart', function () {
+        square2.classList.add('opacity1');
+        videoTitle2.classList.add('display-title');
+    });
+
+    square2.addEventListener('touchend', function () {
+        square2.classList.remove('opacity1');
+        videoTitle2.classList.remove('display-title');
+    })
+
     // *---------------  SQUARE 3  --------------* //
 
     let square3 = document.getElementById('video-box3');
     let videoTitle3 = document.getElementById('video-title3')
 
-    square3.addEventListener('mouseenter', function (e) {
+    square3.addEventListener('mouseenter', function () {
         square3.classList.add('opacity1');
         videoTitle3.classList.add('display-title');
     });
@@ -49,12 +73,24 @@ document.addEventListener('DOMContentLoaded', function () {
         videoTitle3.classList.remove('display-title');
     })
 
+    // TACTILE
+
+    square3.addEventListener('touchstart', function () {
+        square3.classList.add('opacity1');
+        videoTitle3.classList.add('display-title');
+    });
+
+    square3.addEventListener('touchend', function () {
+        square3.classList.remove('opacity1');
+        videoTitle3.classList.remove('display-title');
+    })
+
     // *---------------  SQUARE 4  --------------* //
 
     let square4 = document.getElementById('video-box4');
     let videoTitle4 = document.getElementById('video-title4')
 
-    square4.addEventListener('mouseenter', function (e) {
+    square4.addEventListener('mouseenter', function () {
         square4.classList.add('opacity1');
         videoTitle4.classList.add('display-title');
     });
@@ -64,12 +100,24 @@ document.addEventListener('DOMContentLoaded', function () {
         videoTitle4.classList.remove('display-title');
     })
 
+    // TACTILE
+
+    square4.addEventListener('touchstart', function () {
+        square4.classList.add('opacity1');
+        videoTitle4.classList.add('display-title');
+    });
+
+    square4.addEventListener('touchend', function () {
+        square4.classList.remove('opacity1');
+        videoTitle4.classList.remove('display-title');
+    })
+
     // *---------------  SQUARE 5  --------------* //
 
     let square5 = document.getElementById('video-box5');
     let videoTitle5 = document.getElementById('video-title5')
 
-    square5.addEventListener('mouseenter', function (e) {
+    square5.addEventListener('mouseenter', function () {
         square5.classList.add('opacity1');
         videoTitle5.classList.add('display-title');
     });
@@ -78,9 +126,19 @@ document.addEventListener('DOMContentLoaded', function () {
         square5.classList.remove('opacity1');
         videoTitle5.classList.remove('display-title');
     })
+
+    // TACTILE 
+
+    square5.addEventListener('touchstart', function () {
+        square5.classList.add('opacity1');
+        videoTitle5.classList.add('display-title');
+    });
+
+    square5.addEventListener('touchend', function () {
+        square5.classList.remove('opacity1');
+        videoTitle5.classList.remove('display-title');
+    })
 })
-
-
 
 
 // *-----------------------------------------------------* //
@@ -108,7 +166,7 @@ function pauseVid1()
 function playVid2()
 { 
     videoTwo.play();
-    videoOne.pause();
+    videoOne.pause(); // to pause autoplayed video 1
 } 
 
 function pauseVid2()

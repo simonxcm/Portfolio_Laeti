@@ -477,37 +477,36 @@
             height: 100%;
         }
     } 
+
+    #video-title2 {
+        display: none;
+        font-size: 50px;
+        margin:40px 0 0 28px;
+        writing-mode: vertical-lr;
+    }
+    
+    #video-title3 {
+        display: none;
+        font-size: 50px;
+        margin:40px 0 0 28px;
+        writing-mode: vertical-lr;
+    }
+    
+    #video-title4 {
+        display: none;
+        font-size: 50px;
+        margin:40px 0 0 28px;
+        writing-mode: vertical-lr;
+    }
+    
+    #video-title5 {
+        display: none;
+        font-size: 50px;
+        margin:40px 0 0 28px;
+        writing-mode: vertical-lr;
+    }
 } 
 
-
-
-#video-title2 {
-    display: none;
-    font-size: 50px;
-    margin:40px 0 0 28px;
-    writing-mode: vertical-lr;
-}
-
-#video-title3 {
-    display: none;
-    font-size: 50px;
-    margin:40px 0 0 28px;
-    writing-mode: vertical-lr;
-}
-
-#video-title4 {
-    display: none;
-    font-size: 50px;
-    margin:40px 0 0 28px;
-    writing-mode: vertical-lr;
-}
-
-#video-title5 {
-    display: none;
-    font-size: 50px;
-    margin:40px 0 0 28px;
-    writing-mode: vertical-lr;
-}
 
 
 // *----  MAIN RIGHT SQUARES HOMEPAGE SECTION MEDIA QUERIES ----* //
@@ -520,7 +519,6 @@
 
         
         .video-box2 {
-            opacity: 0.7;
             width: 100%;
             height: 25vh; 
     
@@ -531,8 +529,7 @@
             }
         }
     
-        .video-box3 {
-            opacity: 0.7;
+        .video-box3 { 
             width: 100%;
             height: 25vh;
             
@@ -543,7 +540,6 @@
         }
         
         .video-box4 {
-            opacity: 0.7; 
             width: 100%;
             height: 25vh;
     
@@ -554,7 +550,6 @@
         }
         
         .video-box5 {
-            opacity: 0.7;
             width: 100%;
             height: 25vh; 
     
@@ -562,7 +557,86 @@
                 width: 100%;
                 height: auto;
             }
-        } 
+        }
+        
+        #video-title2 {
+            font-size: 50px;
+            margin:27px 0 0 28px;
+            writing-mode: horizontal-tb;
+        }
+        
+        #video-title3 {
+            font-size: 50px;
+            margin:27px 0 0 28px;
+            writing-mode: horizontal-tb;
+        }
+        
+        #video-title4 {
+            font-size: 50px;
+            margin:27px 0 0 28px;
+            writing-mode: horizontal-tb;
+        }
+        
+        #video-title5 {
+            font-size: 50px;
+            margin:27px 0 0 28px;
+            writing-mode: horizontal-tb;
+        }
+        
+    }
+}
+
+@media (max-width: 900px) {
+
+    .videobox-container {
+        
+        .video-box2 {
+    
+            #video-two {
+                width: auto;
+                height: 100%; // override the height 100% no media queries
+            }
+        }
+    
+        .video-box3 { 
+            
+            #video-three {
+                width: auto;
+                height: 100%;
+            }
+        }
+        
+        .video-box4 {
+    
+            #video-four {
+                width: auto;
+                height: 100%;
+            }
+        }
+        
+        .video-box5 {
+    
+            #video-five {
+                width: auto;
+                height: 100%;
+            }
+        }
+
+        #video-title2 {
+            font-size: 45px;
+        }
+        
+        #video-title3 {
+            font-size: 45px;
+        }
+        
+        #video-title4 {
+            font-size: 45px;
+        }
+        
+        #video-title5 {
+            font-size: 45px;
+        }
     }
 }
 
@@ -575,9 +649,55 @@
         width: 100%;
         height: 100vh;
         
-        .video-box1, .video-box2, .video-box3, .video-box4 { 
+        .video-box2, .video-box3, .video-box4, .video-box5 { 
             width: 100%;
             height: 50vh;
+        }
+
+        #video-title2 {
+            font-size: 60px;
+            writing-mode: vertical-lr;
+        }
+        
+        #video-title3 {
+            font-size: 60px;
+            writing-mode: vertical-lr;
+        }
+        
+        #video-title4 {
+            font-size: 60px;
+            writing-mode: vertical-lr;
+        }
+        
+        #video-title5 {
+            font-size: 60px;
+            writing-mode: vertical-lr;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .videobox-container {
+
+        #video-title2 {
+            font-size: 50px;
+            margin: 25px 0 0 15px;
+        }
+        
+        #video-title3 {
+            font-size: 50px;
+            margin: 25px 0 0 15px;
+        }
+        
+        #video-title4 {
+            font-size: 50px;
+            margin: 25px 0 0 15px;
+        }
+        
+        #video-title5 {
+            font-size: 50px;
+            margin: 25px 0 0 15px;
         }
     }
 }
