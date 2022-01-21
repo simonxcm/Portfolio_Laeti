@@ -548,7 +548,7 @@ body {
   justify-content: left;
   font-size: 30px;
   list-style: none;
-  margin: 20px 0 0 30px;
+  margin: 22px 0 0 30px;
 }
 .left-container a, .left-container p {
   text-decoration: none;
@@ -564,7 +564,7 @@ body {
 @media (max-width: 600px) {
   .left-container {
     justify-content: left;
-    margin: 22px 0 0 10px;
+    margin: 23px 0 0 10px;
     font-size: 27px;
   }
   .left-container span li {
