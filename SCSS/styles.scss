@@ -717,17 +717,12 @@
 
 .hider-top {
     width: 100%;
-    height: 70px;
+    height: 75px;
     position: absolute;
     top: 0;
     background-color: #171717;
-    box-shadow: 3px 0 15px (rgb(0, 0, 0));
 }
 
-.instagram {
-    width: 35px;
-    transform: translateY(11%);
-}
 
 .left-container {
     display: flex;
@@ -745,9 +740,8 @@
         }
     }
 
-    span li:first-child {
+    span li {
         color: white;
-
     }
 }
 
@@ -774,6 +768,7 @@
             margin-top: 30px;
 
             a {
+                font-size: 40px;
                 text-decoration: none;
                 color: yellow
             }
@@ -787,6 +782,26 @@
 }
 
 // *----  CONTACT PAGE MEDIA QUERIES ----* //
+
+@media (max-width: 1090px) {
+    
+    .videobox-container-contact {
+
+        .contact-container {
+    
+            h1 {
+        
+                a {
+                    font-size: 32px;
+                }
+            }
+    
+            .instagram {
+                width: 30px;
+            }
+        }
+    }
+}
 
 @media (max-width: 900px) {
     
@@ -806,10 +821,6 @@
                 a {
                     font-size: 25px;
                 }
-            }
-    
-            .instagram {
-                width: 30px;
             }
         }
     }
