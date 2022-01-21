@@ -746,6 +746,27 @@
 }
 
 
+// *-------------  CONTACT PAGE MEDIA QUERIES -----------* //
+
+
+@media (max-width: 600px) {
+
+    .left-container {
+        justify-content: left;
+        margin: 22px 0 0 10px;
+        font-size: 27px;
+
+        span li {
+            display: none;
+        }
+    }
+}
+
+
+
+
+
+
 // *---------------------------------------------------* //
 // *-----------------  CONTACT PAGE  ------------------* //
 // *---------------------------------------------------* //
@@ -781,7 +802,7 @@
     }
 }
 
-// *----  CONTACT PAGE MEDIA QUERIES ----* //
+// *-------------  CONTACT PAGE MEDIA QUERIES -----------* //
 
 @media (max-width: 1090px) {
     

@@ -561,6 +561,16 @@ body {
   color: white;
 }
 
+@media (max-width: 600px) {
+  .left-container {
+    justify-content: left;
+    margin: 22px 0 0 10px;
+    font-size: 27px;
+  }
+  .left-container span li {
+    display: none;
+  }
+}
 .videobox-container-contact {
   width: 62.5%;
 }
