@@ -108,6 +108,7 @@ function pauseVid1()
 function playVid2()
 { 
     videoTwo.play();
+    videoOne.pause();
 } 
 
 function pauseVid2()
@@ -118,6 +119,7 @@ function pauseVid2()
 function playVid3()
 { 
     videoThree.play();
+    videoOne.pause();
 } 
 
 function pauseVid3()
@@ -128,6 +130,7 @@ function pauseVid3()
 function playVid4()
 { 
     videoFour.play();
+    videoOne.pause();
 } 
 
 function pauseVid4()
@@ -138,6 +141,7 @@ function pauseVid4()
 function playVid5()
 { 
     videoFive.play();
+    videoOne.pause();
 } 
 
 function pauseVid5()
