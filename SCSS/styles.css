@@ -67,13 +67,6 @@ body {
   display: flex;
   position: relative;
   background-color: #171717;
-  /*.yellow-line {
-      width: 10px;
-      height: 100vh;   
-      background-color: yellow;
-      opacity: 0.8;
-      z-index: 1;
-  }*/
 }
 .homepage-container .mainbox-container {
   display: flex;
@@ -100,16 +93,16 @@ body {
   margin: 25px 0 0 35px;
 }
 .homepage-container .mainbox-container .main-box .lastname {
-  margin: -25px 0 0 35px;
+  margin: -40px 0 0 35px;
 }
 .homepage-container .mainbox-container .main-box h1 {
   color: yellow;
-  font-size: 80px;
+  font-size: 100px;
 }
 .homepage-container .mainbox-container .main-box nav ul {
   color: yellow;
-  font-size: 33px;
-  margin: 20px 0 0 35px;
+  font-size: 35px;
+  margin: 10px 0 0 35px;
   list-style-type: none;
 }
 .homepage-container .mainbox-container .main-box nav ul h2 {
@@ -126,12 +119,12 @@ body {
   color: yellow;
   bottom: 0;
   right: 0;
-  font-size: 30px;
+  font-size: 35px;
   text-align: right;
   margin: 0 35px 25px 0;
 }
 .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
-  margin-bottom: -10px;
+  margin-bottom: -18px;
 }
 .homepage-container .mainbox-container .main-box #video-title1 {
   display: none;
@@ -142,16 +135,94 @@ body {
 }
 .homepage-container .mainbox-container .main-box #video-one {
   height: 100%;
-  margin-left: -260px;
+  margin-left: -300px;
 }
 
 .box-shadow {
   box-shadow: 3px 0 30px black;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1360px) {
+  .homepage-container .mainbox-container .main-box h1 {
+    font-size: 75px;
+  }
+  .homepage-container .mainbox-container .main-box .lastname {
+    margin: -28px 0 0 35px;
+  }
+  .homepage-container .mainbox-container .main-box nav ul {
+    font-size: 32px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title {
+    font-size: 32px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
+    margin-bottom: -16px;
+  }
+  .homepage-container .mainbox-container .main-box #video-one {
+    margin-left: -350px;
+  }
+}
+@media (max-width: 1090px) {
   .homepage-container .mainbox-container {
     width: 50%;
+  }
+  .homepage-container .mainbox-container .main-box h1 {
+    font-size: 85px;
+  }
+  .homepage-container .mainbox-container .main-box .lastname {
+    margin: -35px 0 0 35px;
+  }
+  .homepage-container .mainbox-container .main-box nav ul {
+    font-size: 35px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title {
+    font-size: 35px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
+    margin-bottom: -19px;
+  }
+}
+@media (max-width: 900px) {
+  .homepage-container .mainbox-container {
+    width: 50%;
+  }
+  .homepage-container .mainbox-container .main-box h1 {
+    font-size: 70px;
+  }
+  .homepage-container .mainbox-container .main-box .lastname {
+    margin: -25px 0 0 35px;
+  }
+  .homepage-container .mainbox-container .main-box nav ul {
+    font-size: 30px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title {
+    font-size: 30px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
+    margin-bottom: -15px;
+  }
+  .homepage-container .mainbox-container .main-box #video-one {
+    margin-left: -400px;
+  }
+}
+@media (max-width: 800px) {
+  .homepage-container .mainbox-container {
+    width: 50%;
+  }
+  .homepage-container .mainbox-container .main-box h1 {
+    font-size: 57px;
+  }
+  .homepage-container .mainbox-container .main-box .lastname {
+    margin: -22px 0 0 35px;
+  }
+  .homepage-container .mainbox-container .main-box nav ul {
+    font-size: 25px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title {
+    font-size: 25px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
+    margin-bottom: -12px;
   }
 }
 @media (max-width: 700px) {
@@ -167,12 +238,54 @@ body {
     width: 100%;
     height: 100vh;
   }
-
-  .yellow-line {
-    width: 100%;
-    height: 3px;
-    background-color: yellow;
-    z-index: 1;
+  .homepage-container .mainbox-container .main-box h1 {
+    font-size: 98px;
+  }
+  .homepage-container .mainbox-container .main-box .lastname {
+    margin: -40px 0 0 35px;
+  }
+  .homepage-container .mainbox-container .main-box nav ul {
+    font-size: 38px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title {
+    font-size: 38px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
+    margin-bottom: -20px;
+  }
+  .homepage-container .mainbox-container .main-box #video-title1 {
+    margin: 43px 25px 0 0;
+  }
+  .homepage-container .mainbox-container .main-box #video-one {
+    margin-left: -300px;
+  }
+}
+@media (max-width: 500px) {
+  .homepage-container .mainbox-container .main-box h1 {
+    font-size: 70px;
+  }
+  .homepage-container .mainbox-container .main-box .firstname {
+    margin: 20px 0 0 25px;
+  }
+  .homepage-container .mainbox-container .main-box .lastname {
+    margin: -30px 0 0 25px;
+  }
+  .homepage-container .mainbox-container .main-box nav ul {
+    font-size: 30px;
+    margin: 10px 0 0 25px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title {
+    font-size: 30px;
+    margin: 0 25px 15px 0;
+  }
+  .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
+    margin-bottom: -17px;
+  }
+  .homepage-container .mainbox-container .main-box #video-title1 {
+    margin: 31px 15px 0 0;
+  }
+  .homepage-container .mainbox-container .main-box #video-one {
+    margin-left: -380px;
   }
 }
 .videobox-container {
@@ -256,7 +369,7 @@ body {
   writing-mode: vertical-lr;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1090px) {
   .videobox-container {
     width: 50%;
   }
