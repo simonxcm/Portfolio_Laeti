@@ -1,12 +1,9 @@
-@font-face {
-  font-family: "Bebas Neue";
-  src: url(/FONT/BebasNeue-Regular.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Bebas Neue;
+  font-family: "Bebas Neue", cursive;
 }
 
 body {
@@ -82,13 +79,6 @@ body {
   position: relative;
   height: 100vh;
 }
-.homepage-container .mainbox-container .main-box a {
-  text-decoration: none;
-  color: yellow;
-}
-.homepage-container .mainbox-container .main-box a:hover {
-  color: white;
-}
 .homepage-container .mainbox-container .main-box .firstname {
   margin: 25px 0 0 35px;
 }
@@ -99,21 +89,17 @@ body {
   color: yellow;
   font-size: 100px;
 }
-.homepage-container .mainbox-container .main-box nav ul {
+.homepage-container .mainbox-container .main-box a {
   color: yellow;
   font-size: 35px;
-  margin: 10px 0 0 35px;
   list-style-type: none;
-}
-.homepage-container .mainbox-container .main-box nav ul h2 {
-  margin-bottom: -5px;
-}
-.homepage-container .mainbox-container .main-box nav ul a {
   text-decoration: none;
-  color: yellow;
 }
-.homepage-container .mainbox-container .main-box nav ul a:hover {
+.homepage-container .mainbox-container .main-box a :hover {
   color: white;
+}
+.homepage-container .mainbox-container .main-box a h2 {
+  margin: 10px 0 -5px 35px;
 }
 .homepage-container .mainbox-container .main-box .job-title {
   color: yellow;
