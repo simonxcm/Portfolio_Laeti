@@ -206,3 +206,31 @@ function pauseVid5()
 {
     videoFive.pause();
 }
+
+
+// *-----------------------------------------------------* //
+// *----------  CHANGE VIDEO SOURCE ON MOBILE  ----------* //
+// *-----------------------------------------------------* //
+
+
+
+let mediaQuery = window.matchMedia("(max-width: 800px)")
+
+function myFunction(mediaQuery) {
+    if (mediaQuery.matches) { 
+        videoOne.setAttribute('src', '/medias/liberte_sans_nom-tiny.mp4');
+        videoTwo.setAttribute('src', '/medias/identite-tiny.mp4');
+        videoThree.setAttribute('src', '/medias/leo_fifty_five-tiny.mp4');
+        videoFour.setAttribute('src', '/medias/sombrero-tiny.mp4');
+        videoFive.setAttribute('src', '/medias/jaia_rose-tiny.mp4');
+    } else {
+        videoOne.setAttribute('src', '/medias/liberte_sans_nom.mp4');
+        videoTwo.setAttribute('src', '/medias/identite.mp4');
+        videoThree.setAttribute('src', '/medias/leo_fifty_five.mp4');
+        videoFour.setAttribute('src', '/medias/sombrero.mp4');
+        videoFive.setAttribute('src', '/medias/jaia_rose.mp4');
+    }
+}
+   
+myFunction(mediaQuery) 
+mediaQuery.addListener(myFunction)

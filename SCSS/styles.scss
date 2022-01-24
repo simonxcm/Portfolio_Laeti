@@ -729,7 +729,7 @@
 }
 
 
-// *-------------  CONTACT PAGE MEDIA QUERIES -----------* //
+// *--------  YOUTUBE PROJECT PAGE MEDIA QUERIES -------* //
 
 
 @media (max-width: 600px) {
@@ -774,7 +774,11 @@
             a {
                 font-size: 40px;
                 text-decoration: none;
-                color: yellow
+                color: yellow;
+
+                &:hover {
+                    color: white;
+                } 
             }
         }
 

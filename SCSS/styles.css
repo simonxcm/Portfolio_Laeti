@@ -575,6 +575,9 @@ body {
   text-decoration: none;
   color: yellow;
 }
+.videobox-container-contact .contact-container h1 a:hover {
+  color: white;
+}
 .videobox-container-contact .contact-container .instagram {
   width: 35px;
   margin-top: 10px;
