@@ -62,12 +62,12 @@ body {
 
 .homepage-container {
   display: flex;
-  position: relative;
   background-color: #171717;
 }
 .homepage-container .mainbox-container {
   display: flex;
   align-items: center;
+  position: relative;
   flex-wrap: wrap;
   z-index: 1;
   width: 37.5%;
@@ -510,19 +510,19 @@ body {
 }
 @media (max-width: 500px) {
   .videobox-container #video-title2 {
-    font-size: 50px;
+    font-size: 60px;
     margin: 25px 0 0 15px;
   }
   .videobox-container #video-title3 {
-    font-size: 50px;
+    font-size: 60px;
     margin: 25px 0 0 15px;
   }
   .videobox-container #video-title4 {
-    font-size: 50px;
+    font-size: 60px;
     margin: 25px 0 0 15px;
   }
   .videobox-container #video-title5 {
-    font-size: 50px;
+    font-size: 60px;
     margin: 25px 0 0 15px;
   }
 }

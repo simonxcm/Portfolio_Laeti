@@ -8,12 +8,13 @@
 
 .homepage-container {
     display: flex;
-    position: relative;
     background-color: #171717;
             
     .mainbox-container {
         display: flex;
         align-items: center;
+        position: relative;
+
         flex-wrap: wrap;
         z-index: 1;
         width: 37.5%;
@@ -693,22 +694,22 @@
     .videobox-container {
 
         #video-title2 {
-            font-size: 50px;
+            font-size: 60px;
             margin: 25px 0 0 15px;
         }
         
         #video-title3 {
-            font-size: 50px;
+            font-size: 60px;
             margin: 25px 0 0 15px;
         }
         
         #video-title4 {
-            font-size: 50px;
+            font-size: 60px;
             margin: 25px 0 0 15px;
         }
         
         #video-title5 {
-            font-size: 50px;
+            font-size: 60px;
             margin: 25px 0 0 15px;
         }
     }
