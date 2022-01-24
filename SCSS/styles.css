@@ -83,7 +83,7 @@ body {
   top: 0;
 }
 .homepage-container .mainbox-container .main-box .lastname {
-  top: 80px;
+  top: 75px;
   margin: 25px 0 0 35px;
 }
 .homepage-container .mainbox-container .main-box h1 {
@@ -138,6 +138,10 @@ body {
   }
   .homepage-container .mainbox-container .main-box .lastname {
     margin: -28px 0 0 35px;
+    top: 110px;
+  }
+  .homepage-container .mainbox-container .main-box .create-together {
+    top: 160px;
   }
   .homepage-container .mainbox-container .main-box a h2 {
     font-size: 45px;
@@ -161,6 +165,10 @@ body {
   }
   .homepage-container .mainbox-container .main-box .lastname {
     margin: -35px 0 0 35px;
+    top: 124px;
+  }
+  .homepage-container .mainbox-container .main-box .create-together {
+    top: 175px;
   }
   .homepage-container .mainbox-container .main-box a h2 {
     font-size: 50px;
@@ -181,6 +189,10 @@ body {
   }
   .homepage-container .mainbox-container .main-box .lastname {
     margin: -25px 0 0 35px;
+    top: 104px;
+  }
+  .homepage-container .mainbox-container .main-box .create-together {
+    top: 150px;
   }
   .homepage-container .mainbox-container .main-box a h2 {
     font-size: 40px;
@@ -204,6 +216,10 @@ body {
   }
   .homepage-container .mainbox-container .main-box .lastname {
     margin: -22px 0 0 35px;
+    top: 90px;
+  }
+  .homepage-container .mainbox-container .main-box .create-together {
+    top: 140px;
   }
   .homepage-container .mainbox-container .main-box a h2 {
     font-size: 35px;
@@ -233,6 +249,10 @@ body {
   }
   .homepage-container .mainbox-container .main-box .lastname {
     margin: -40px 0 0 35px;
+    top: 140px;
+  }
+  .homepage-container .mainbox-container .main-box .create-together {
+    top: 220px;
   }
   .homepage-container .mainbox-container .main-box a h2 {
     font-size: 50px;
@@ -259,6 +279,10 @@ body {
   }
   .homepage-container .mainbox-container .main-box .lastname {
     margin: -30px 0 0 25px;
+    top: 104px;
+  }
+  .homepage-container .mainbox-container .main-box .create-together {
+    top: 160px;
   }
   .homepage-container .mainbox-container .main-box a h2 {
     font-size: 40px;
@@ -280,16 +304,20 @@ body {
 }
 @media (max-width: 400px) {
   .homepage-container .mainbox-container .main-box h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
   .homepage-container .mainbox-container .main-box .firstname {
     margin: 20px 0 0 25px;
   }
   .homepage-container .mainbox-container .main-box .lastname {
     margin: -30px 0 0 25px;
+    top: 95px;
   }
-  .homepage-container .mainbox-container .main-box nav ul {
-    font-size: 30px;
+  .homepage-container .mainbox-container .main-box .create-together {
+    top: 130px;
+  }
+  .homepage-container .mainbox-container .main-box a h2 {
+    font-size: 35px;
     margin: 10px 0 0 25px;
   }
   .homepage-container .mainbox-container .main-box .job-title {
@@ -312,10 +340,17 @@ body {
   }
   .homepage-container .mainbox-container .main-box .lastname {
     margin: -20px 0 0 25px;
+    top: 78px;
+  }
+  .homepage-container .mainbox-container .main-box .create-together {
+    top: 120px;
   }
   .homepage-container .mainbox-container .main-box a h2 {
     font-size: 30px;
     margin: 10px 0 0 25px;
+  }
+  .homepage-container .mainbox-container .main-box #video-title1 {
+    font-size: 40px;
   }
 }
 .videobox-container {
