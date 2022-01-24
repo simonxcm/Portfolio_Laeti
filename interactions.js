@@ -213,7 +213,6 @@ function pauseVid5()
 // *-----------------------------------------------------* //
 
 
-
 let mediaQuery = window.matchMedia("(max-width: 800px)")
 
 function myFunction(mediaQuery) {
