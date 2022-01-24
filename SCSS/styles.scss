@@ -13,8 +13,6 @@
     .mainbox-container {
         display: flex;
         align-items: center;
-        position: relative;
-
         flex-wrap: wrap;
         z-index: 1;
         width: 37.5%;
@@ -28,15 +26,21 @@
 
             .firstname {
                 margin: 25px 0 0 35px;
+                top: 0;
             }
             
             .lastname {
-                margin: -40px 0 0 35px;
+                top: 80px;
+                margin: 25px 0 0 35px;
             }
 
             h1 {
                 color: yellow;
                 font-size: 100px;
+            }
+
+            .create-together {
+                top: 200px;
             }
 
             a {
@@ -69,7 +73,7 @@
 
             #video-title1 {
                 display: none;
-                font-size: 50px;
+                font-size: 60px;
                 margin:40px 25px 0 0;
                 right: 0;
                 writing-mode: vertical-rl;
@@ -493,28 +497,28 @@
 
     #video-title2 {
         display: none;
-        font-size: 50px;
+        font-size: 60px;
         margin:40px 0 0 28px;
         writing-mode: vertical-lr;
     }
     
     #video-title3 {
         display: none;
-        font-size: 50px;
+        font-size: 60px;
         margin:40px 0 0 28px;
         writing-mode: vertical-lr;
     }
     
     #video-title4 {
         display: none;
-        font-size: 50px;
+        font-size: 60px;
         margin:40px 0 0 28px;
         writing-mode: vertical-lr;
     }
     
     #video-title5 {
         display: none;
-        font-size: 50px;
+        font-size: 60px;
         margin:40px 0 0 28px;
         writing-mode: vertical-lr;
     }
@@ -695,22 +699,22 @@
 
         #video-title2 {
             font-size: 60px;
-            margin: 25px 0 0 15px;
+            margin: 30px 0 0 15px;
         }
         
         #video-title3 {
             font-size: 60px;
-            margin: 25px 0 0 15px;
+            margin: 30px 0 0 15px;
         }
         
         #video-title4 {
             font-size: 60px;
-            margin: 25px 0 0 15px;
+            margin: 30px 0 0 15px;
         }
         
         #video-title5 {
             font-size: 60px;
-            margin: 25px 0 0 15px;
+            margin: 30px 0 0 15px;
         }
     }
 }
