@@ -1,6 +1,5 @@
 'use strict';
 
-
 document.addEventListener('DOMContentLoaded', function () {
 
     // *---------------  SQUARE 1  --------------* //
@@ -155,7 +154,6 @@ let videoFive = document.getElementById("video-five");
 function playVid1()
 { 
     videoOne.play();
-    
 } 
 
 function pauseVid1()
@@ -215,7 +213,7 @@ function pauseVid5()
 
 let mediaQuery = window.matchMedia("(max-width: 800px)")
 
-function myFunction(mediaQuery) {
+function changeVideoSource(mediaQuery) {
     if (mediaQuery.matches) { 
         videoOne.setAttribute('src', '/medias/liberte_sans_nom-tiny.mp4');
         videoTwo.setAttribute('src', '/medias/identite-tiny.mp4');
@@ -231,5 +229,5 @@ function myFunction(mediaQuery) {
     }
 }
    
-myFunction(mediaQuery) 
+changeVideoSource(mediaQuery) 
 mediaQuery.addListener(myFunction)

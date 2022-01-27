@@ -1,65 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Bebas Neue", cursive;
-}
-
-body {
-  background-color: #171717;
-}
-
-.psa {
-  position: absolute;
-}
-
-.psr {
-  position: relative;
-}
-
-.op80 {
-  background-color: black;
-  opacity: 0.8;
-}
-
-.db {
-  display: block;
-}
-
-.w100 {
-  width: 100%;
-}
-
-.h100 {
-  height: 100%;
-}
-
-.t0 {
-  top: 0;
-}
-
-.l0 {
-  left: 0;
-}
-
-.display-none {
-  display: none;
-}
-
-.display {
-  display: block;
-}
-
-.opacity1 {
-  opacity: 1 !important;
-}
-
-.display-title {
-  color: white !important;
-  display: block !important;
-}
-
 .homepage-container {
   display: flex;
   background-color: #171717;
@@ -702,6 +641,66 @@ body {
   .videobox-container-contact .contact-container .instagram {
     width: 35px;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
+}
+
+body {
+  background-color: #171717;
+}
+
+.psa {
+  position: absolute;
+}
+
+.psr {
+  position: relative;
+}
+
+.op80 {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.db {
+  display: block;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.t0 {
+  top: 0;
+}
+
+.l0 {
+  left: 0;
+}
+
+.display-none {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+.opacity1 {
+  opacity: 1 !important;
+}
+
+.display-title {
+  color: white !important;
+  display: block !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
