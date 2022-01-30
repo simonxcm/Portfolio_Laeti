@@ -175,7 +175,7 @@ function pauseVid2()
 function playVid3()
 { 
     videoThree.play();
-    videoOne.pause();
+    videoOne.pause(); // to pause autoplayed video 1
 } 
 
 function pauseVid3()
@@ -186,7 +186,7 @@ function pauseVid3()
 function playVid4()
 { 
     videoFour.play();
-    videoOne.pause();
+    videoOne.pause(); // to pause autoplayed video 1
 } 
 
 function pauseVid4()
@@ -197,7 +197,7 @@ function pauseVid4()
 function playVid5()
 { 
     videoFive.play();
-    videoOne.pause();
+    videoOne.pause(); // to pause autoplayed video 1
 } 
 
 function pauseVid5()
@@ -211,7 +211,7 @@ function pauseVid5()
 // *-----------------------------------------------------* //
 
 
-let mediaQuery = window.matchMedia("(max-width: 700px)")
+let mediaQuery = window.matchMedia("(max-width: 930px)")
 
 function changeVideoSource(mediaQuery) {
     if (mediaQuery.matches) { 
@@ -230,4 +230,22 @@ function changeVideoSource(mediaQuery) {
 }
    
 changeVideoSource(mediaQuery) 
-mediaQuery.addListener(myFunction)
+
+
+// *------------------------------------------------* //
+// *--  FORCING AUTOPLAY ON MOBILE LOW POWER MODE --* //
+// *------------------------------------------------* //
+
+/*
+
+document.getElementById('video-one').addEventListener('touchstart', function () {
+
+    videoOne.play();
+});
+
+document.getElementById('video-one').addEventListener('touchend', function () {
+
+    videoOne.pause();
+});
+
+*/

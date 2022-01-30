@@ -21,6 +21,7 @@
             text-align: center;
             margin: 10px 0 0 15px;
             z-index: 2;
+            cursor: default;
         }
 
         .mouseenter-title{
@@ -66,6 +67,7 @@
         font-size: 60px;
         margin:40px 0 0 28px;
         writing-mode: vertical-lr;
+        cursor: default;
     }
     
     #video-title3 {
@@ -73,6 +75,7 @@
         font-size: 60px;
         margin:40px 0 0 28px;
         writing-mode: vertical-lr;
+        cursor: default;
     }
     
     #video-title4 {
@@ -80,6 +83,7 @@
         font-size: 60px;
         margin:40px 0 0 28px;
         writing-mode: vertical-lr;
+        cursor: default;
     }
     
     #video-title5 {
@@ -87,9 +91,9 @@
         font-size: 60px;
         margin:40px 0 0 28px;
         writing-mode: vertical-lr;
+        cursor: default;
     }
 } 
-
 
 
 // *----  MAIN RIGHT SQUARES HOMEPAGE SECTION MEDIA QUERIES ----* //
@@ -175,18 +179,26 @@
 
         #video-title2 {
             font-size: 40px;
+            letter-spacing: -2px;
+            margin: 24px 0 0 28px;
         }
         
         #video-title3 {
             font-size: 40px;
+            letter-spacing: -2px;
+            margin: 24px 0 0 28px;
         }
         
         #video-title4 {
             font-size: 40px;
+            letter-spacing: -2px;
+            margin: 24px 0 0 28px;
         }
         
         #video-title5 {
             font-size: 40px;
+            letter-spacing: -2px;
+            margin: 24px 0 0 28px;
         }
     }
 }
