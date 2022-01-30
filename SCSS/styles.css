@@ -427,7 +427,7 @@
     writing-mode: horizontal-tb;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   .videobox-container .video-box2 #video-two {
     width: auto;
     height: 100%;
