@@ -211,21 +211,21 @@ function pauseVid5()
 // *-----------------------------------------------------* //
 
 
-let mediaQuery = window.matchMedia("(max-width: 800px)")
+let mediaQuery = window.matchMedia("(max-width: 700px)")
 
 function changeVideoSource(mediaQuery) {
     if (mediaQuery.matches) { 
-        videoOne.setAttribute('src', '/medias/liberte_sans_nom-tiny.mp4');
-        videoTwo.setAttribute('src', '/medias/identite-tiny.mp4');
-        videoThree.setAttribute('src', '/medias/leo_fifty_five-tiny.mp4');
-        videoFour.setAttribute('src', '/medias/sombrero-tiny.mp4');
-        videoFive.setAttribute('src', '/medias/jaia_rose-tiny.mp4');
+        videoOne.setAttribute('src', '/medias/videos/liberte-sans-nom-mobile.mp4');
+        videoTwo.setAttribute('src', '/medias/videos/identite-mobile.mp4');
+        videoThree.setAttribute('src', '/medias/videos/leo-fifty-five-mobile.mp4');
+        videoFour.setAttribute('src', '/medias/videos/sombrero-mobile.mp4');
+        videoFive.setAttribute('src', '/medias/videos/jaia-rose-mobile.mp4');
     } else {
-        videoOne.setAttribute('src', '/medias/liberte_sans_nom.mp4');
-        videoTwo.setAttribute('src', '/medias/identite.mp4');
-        videoThree.setAttribute('src', '/medias/leo_fifty_five.mp4');
-        videoFour.setAttribute('src', '/medias/sombrero.mp4');
-        videoFive.setAttribute('src', '/medias/jaia_rose.mp4');
+        videoOne.setAttribute('src', '/medias/videos/liberte-sans-nom-tiny.mp4');
+        videoTwo.setAttribute('src', '/medias/videos/identite-tiny.mp4');
+        videoThree.setAttribute('src', '/medias/videos/leo-fifty-five-tiny.mp4');
+        videoFour.setAttribute('src', '/medias/videos/sombrero-tiny.mp4');
+        videoFive.setAttribute('src', '/medias/videos/jaia-rose-tiny.mp4');
     }
 }
    
