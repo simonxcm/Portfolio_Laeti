@@ -174,7 +174,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 940px) {
 
     .homepage-container {
         
@@ -210,9 +210,14 @@
                         margin-bottom: -15px;
                     }
                 }
+                
+                #video-title1 {
+                    margin: 40px 30px 0 0;
+                    font-size: 28px;
+                }
 
                 #video-one {
-                    margin-left: -400px;
+                    margin-left: 0;
                 }
             }
         }
@@ -277,39 +282,40 @@
             .main-box {
     
                 h1 {
-                    font-size: 98px;
+                    font-size: 75px;
                 }
                 
                 .lastname {
-                    margin: -40px 0 0 35px;
+                    margin: -60px 0 0 35px;
                     top: 140px;
                 }
 
                 .create-together {
-                    top: 220px;
+                    top: 150px;
                 }
     
                 a {
     
                     h2 {
-                        font-size: 50px;
+                        font-size: 45px;
                     }
                 }
     
                 .job-title {
-                    font-size: 38px;
+                    font-size: 26px;
     
                     .job1, .job2 {
-                        margin-bottom: -20px;
+                        margin-bottom: -18px;
                     }
                 }
 
                 #video-title1 {
-                    margin:43px 25px 0 0;
+                    font-size: 24px;
+                    margin: 43px 30px 0 0;
                 }
 
                 #video-one {
-                    margin-left: -300px;
+                    margin-left: 0;
                 }
             }
         }
@@ -359,7 +365,7 @@
                 }
 
                 #video-title1 {
-                    margin:31px 15px 0 0;
+                    margin: 31px 15px 0 0;
                 }
 
                 #video-one {
@@ -412,7 +418,8 @@
                 }
 
                 #video-title1 {
-                    margin:31px 15px 0 0;
+                    font-size: 45px;
+                    margin: 31px 20px 0 0;
                 }
 
                 #video-one {
@@ -450,6 +457,15 @@
                     h2 {
                         font-size: 30px;
                         margin: 10px 0 0 25px;
+                    }
+                }
+
+                .job-title {
+                    font-size: 25px;
+                    margin: 0 25px 15px 0;
+
+                    .job1, .job2 {
+                        margin-bottom: -17px;
                     }
                 }
 

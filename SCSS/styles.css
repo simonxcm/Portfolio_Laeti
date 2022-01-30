@@ -119,7 +119,7 @@
     margin-bottom: -19px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 940px) {
   .homepage-container .mainbox-container {
     width: 50%;
   }
@@ -142,8 +142,12 @@
   .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
     margin-bottom: -15px;
   }
+  .homepage-container .mainbox-container .main-box #video-title1 {
+    margin: 40px 30px 0 0;
+    font-size: 28px;
+  }
   .homepage-container .mainbox-container .main-box #video-one {
-    margin-left: -400px;
+    margin-left: 0;
   }
 }
 @media (max-width: 800px) {
@@ -184,29 +188,30 @@
     height: 100vh;
   }
   .homepage-container .mainbox-container .main-box h1 {
-    font-size: 98px;
+    font-size: 75px;
   }
   .homepage-container .mainbox-container .main-box .lastname {
-    margin: -40px 0 0 35px;
+    margin: -60px 0 0 35px;
     top: 140px;
   }
   .homepage-container .mainbox-container .main-box .create-together {
-    top: 220px;
+    top: 150px;
   }
   .homepage-container .mainbox-container .main-box a h2 {
-    font-size: 50px;
+    font-size: 45px;
   }
   .homepage-container .mainbox-container .main-box .job-title {
-    font-size: 38px;
+    font-size: 26px;
   }
   .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
-    margin-bottom: -20px;
+    margin-bottom: -18px;
   }
   .homepage-container .mainbox-container .main-box #video-title1 {
-    margin: 43px 25px 0 0;
+    font-size: 24px;
+    margin: 43px 30px 0 0;
   }
   .homepage-container .mainbox-container .main-box #video-one {
-    margin-left: -300px;
+    margin-left: 0;
   }
 }
 @media (max-width: 500px) {
@@ -267,7 +272,8 @@
     margin-bottom: -17px;
   }
   .homepage-container .mainbox-container .main-box #video-title1 {
-    margin: 31px 15px 0 0;
+    font-size: 45px;
+    margin: 31px 20px 0 0;
   }
   .homepage-container .mainbox-container .main-box #video-one {
     margin-left: -380px;
@@ -287,6 +293,13 @@
   .homepage-container .mainbox-container .main-box a h2 {
     font-size: 30px;
     margin: 10px 0 0 25px;
+  }
+  .homepage-container .mainbox-container .main-box .job-title {
+    font-size: 25px;
+    margin: 0 25px 15px 0;
+  }
+  .homepage-container .mainbox-container .main-box .job-title .job1, .homepage-container .mainbox-container .main-box .job-title .job2 {
+    margin-bottom: -17px;
   }
   .homepage-container .mainbox-container .main-box #video-title1 {
     font-size: 40px;
@@ -428,33 +441,17 @@
   }
 }
 @media (max-width: 920px) {
-  .videobox-container .video-box2 #video-two {
-    width: auto;
-    height: 100%;
-  }
-  .videobox-container .video-box3 #video-three {
-    width: auto;
-    height: 100%;
-  }
-  .videobox-container .video-box4 #video-four {
-    width: auto;
-    height: 100%;
-  }
-  .videobox-container .video-box5 #video-five {
-    width: auto;
-    height: 100%;
-  }
   .videobox-container #video-title2 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .videobox-container #video-title3 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .videobox-container #video-title4 {
-    font-size: 45px;
+    font-size: 40px;
   }
   .videobox-container #video-title5 {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
 @media (max-width: 700px) {
@@ -465,43 +462,75 @@
     width: 100%;
     height: 100vh;
   }
-  .videobox-container .video-box2, .videobox-container .video-box3, .videobox-container .video-box4, .videobox-container .video-box5 {
+  .videobox-container .video-box2 {
+    width: auto;
+    height: 25vh;
+  }
+  .videobox-container .video-box2 #video-two {
     width: 100%;
-    height: 50vh;
+    height: auto;
+  }
+  .videobox-container .video-box3 {
+    width: auto;
+    height: 25vh;
+  }
+  .videobox-container .video-box3 #video-three {
+    width: 100%;
+    height: auto;
+  }
+  .videobox-container .video-box4 {
+    width: auto;
+    height: 25vh;
+  }
+  .videobox-container .video-box4 #video-four {
+    width: 100%;
+    height: auto;
+  }
+  .videobox-container .video-box5 {
+    width: auto;
+    height: 25vh;
+  }
+  .videobox-container .video-box5 #video-five {
+    width: 100%;
+    height: auto;
   }
   .videobox-container #video-title2 {
-    font-size: 60px;
-    writing-mode: vertical-lr;
+    font-size: 40px;
+    margin: 15px 0 0 15px;
+    writing-mode: horizontal-tb;
   }
   .videobox-container #video-title3 {
-    font-size: 60px;
-    writing-mode: vertical-lr;
+    font-size: 40px;
+    margin: 15px 0 0 15px;
+    writing-mode: horizontal-tb;
   }
   .videobox-container #video-title4 {
-    font-size: 60px;
-    writing-mode: vertical-lr;
+    font-size: 40px;
+    margin: 15px 0 0 15px;
+    writing-mode: horizontal-tb;
   }
   .videobox-container #video-title5 {
-    font-size: 60px;
-    writing-mode: vertical-lr;
+    font-size: 40px;
+    margin: 15px 0 0 15px;
+    writing-mode: horizontal-tb;
   }
 }
 @media (max-width: 500px) {
   .videobox-container #video-title2 {
-    font-size: 60px;
-    margin: 30px 0 0 15px;
+    font-size: 50px;
+    margin: 15px 0 0 15px;
   }
   .videobox-container #video-title3 {
-    font-size: 60px;
-    margin: 30px 0 0 15px;
+    font-size: 50px;
+    margin: 15px 0 0 15px;
   }
   .videobox-container #video-title4 {
-    font-size: 60px;
-    margin: 30px 0 0 15px;
+    font-size: 50px;
+    margin: 15px 0 0 15px;
   }
   .videobox-container #video-title5 {
-    font-size: 60px;
-    margin: 30px 0 0 15px;
+    font-size: 50px;
+    margin: 15px 0 0 15px;
   }
 }
 .youtube-fullpage {
