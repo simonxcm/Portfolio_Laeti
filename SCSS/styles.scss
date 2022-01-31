@@ -1,344 +1,67 @@
-@import "commons.scss";
+@import "sections/half-left-container.scss";
+@import "sections/half-right-container.scss";
+@import "sections/youtube-pages.scss";
+@import "sections/contact-page.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-// *------------------------------------------------* //
-// *---------  MAIN LEFT HOMEPAGE SECTION  ---------* //
-// *------------------------------------------------* //
-
-
-.homepage-container {
-    display: flex;
-    position: relative;
-    background-color: #171717;
-                
-    .yellow-line {
-        width: 3px;
-        height: 100vh;   
-        background-color: yellow;
-        z-index: 1;
-    }
-
-    .mainbox-container {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        z-index: 1;
-        width: 37.5%;
-        height: 100vh;
-
-        .main-box{
-            width: 100%;
-            overflow: hidden; 
-            background-image: url("/Medias/Sombrero.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position-x: 50%;
-            position: relative;
-            height: 100vh;
-
-            a {
-                text-decoration:  none;
-                color: yellow;
-
-                &:hover {
-                    color: white;
-                }
-            }
-
-            .firstname {
-                margin: 25px 0 0 35px;
-            }
-            
-            .lastname {
-                margin: -25px 0 0 35px;
-            }
-
-            h1 {
-                color: yellow;
-                font-size: 80px;
-            }
-
-            nav {
-
-                ul {
-                    color: yellow;
-                    font-size: 25px;
-                    margin: 20px 0 0 35px;
-                    list-style-type: none;
-
-                    h2 {
-                        margin-bottom: -5px;
-                    }
-
-                    
-                    a {
-                        text-decoration: none;
-                        color: yellow;
-    
-                        &:hover {
-                            color: white;
-                        }  
-                    }
-
-                    & .instagram {
-                        width: 45px;
-
-                        &:hover {
-                            color: white;
-                        }
-                    }
-                }
-            }
-
-            .job-title {
-                color: yellow;
-                bottom: 0;
-                right: 0;
-                font-size: 30px;
-                text-align: right;
-                margin: 0 35px 25px 0;
-
-                .job1, .job2 {
-                    margin-bottom: -10px;
-                }
-            }
-        }
-    }
-}
-
-.box-shadow {
-    box-shadow: 3px 0 30px (rgb(0, 0, 0));
-}
-
-
-// *--------  MAIN LEFT HOMEPAGE SECTION MEDIA QUERIES  --------* //
-
-
-@media (max-width: 1050px) {
-
-    .homepage-container {
-        
-        .mainbox-container {
-            width: 50%; 
-        }
-    }
-}
-
-@media (max-width: 700px) {
-
-    .homepage-container {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-
-        .mainbox-container {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            width: 100%;
-            height: 100vh;
-        }
-    }
-
-    .yellow-line {
-        width: 100%;
-        height: 3px;
-        background-color: yellow;
-        z-index: 1;
-    }
-}
-
-
-// *---------------------------------------------------* //
-// *------  MAIN RIGHT SQUARES HOMEPAGE SECTION  ------* //
-// *---------------------------------------------------* //
-
-
-.videobox-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 62.5%;
-    height: 100vh;
-    
-    .video-box {
-        width: 50%;
-        overflow: hidden;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-        height: 50vh;       
-
-        .box-title {
-            color: yellow;
-            top: 0;
-            left: 0;
-            font-size: 30px;
-            text-align: center;
-            margin: 10px 0 0 15px;
-            z-index: 2;
-        }
-
-        .mouseenter-title{
-            color: white !important;
-        }
-    }
-       
-    .video-box2 {
-        opacity: 0.4; 
-
-        .video-two {
-            transform: translateX(-20%);
-        }
-    }
-
-    .video-box3 {
-        opacity: 0.4; 
-    }
-    
-    .video-box4 {
-        opacity: 0.4; 
-    }
-    
-    .video-box5 {
-        opacity: 0.4; 
-    } 
-} 
-
-.videobox-container-contact {
-
-    width: 62.5%;
-
-    .contact-container {
-        text-align: center;    
-        
-        img {
-        width: 400px;
-        margin-bottom: 60px;
-        }
-
-        h1 {
-            color: yellow;
-            margin-top: 60px;
-        }
-    }
-
-}
-
-#video-title2 {
-    display: none;
-    font-size: 50px;
-    margin:28px 0 0 28px;
-    writing-mode: sideways-lr;
-}
-
-#video-title3 {
-    display: none;
-    font-size: 50px;
-    margin:28px 0 0 28px;
-    writing-mode: sideways-lr;
-}
-
-#video-title4 {
-    display: none;
-    font-size: 50px;
-    margin:28px 0 0 28px;
-    writing-mode: sideways-lr;
-}
-
-#video-title5 {
-    display: none;
-    font-size: 50px;
-    margin:28px 0 0 28px;
-    writing-mode: sideways-lr;
-}
-
-
-// *----  MAIN RIGHT SQUARES HOMEPAGE SECTION MEDIA QUERIES ----* //
-
-
-@media (max-width: 1050px) {
-
-    .videobox-container {
-        width: 50%;
-
-        .video-box {
-            width: 100%;
-            height: 25vh;
-
-            img {
-                width: 100%;
-                height: auto;
-            }
-        }
-        
-        .video-box1, .video-box2, .video-box3 { 
-            width: 100%;
-            height: 25vh;
-        }
-        
-        .video-box4 {
-            transform: none;
-        }
-    }
-}
-
-@media (max-width: 700px) {
-    
-    .videobox-container {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100vh;
-        
-        .video-box1, .video-box2, .video-box3, .video-box4 { 
-            width: 100%;
-            height: 50vh;
-        }
-    }
-}
-
-
-// *---------------------------------------------------* //
-// *------------  YOUTUBE PROJECTS PAGES  -------------* //
-// *---------------------------------------------------* //
-
-
-.youtube-fullpage {
-    width: 100%;
-    height: 100vh;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
 }
 
-.hider-top {
-    width: 100%;
-    height: 85px;
-    position: absolute;
-    top: 0;
+body {
     background-color: #171717;
-    box-shadow: 3px 0 15px (rgb(0, 0, 0));
 }
 
-.instagram {
-    width: 35px;
-    transform: translateY(11%);
+.psa {
+    position: absolute;
 }
 
-.left-container {
-    display: flex;
-    justify-content: left;
-    font-size: 40px;
-    list-style: none;
-    margin: 20px 0 0 30px;
+.psr {
+    position: relative;
+}
 
-    a, p {
-        text-decoration: none;
-        color: yellow;
-    }
+.op80{
+    background-color: black;
+    opacity: 0.8;
+}
 
-    span li a:first-child {
-        color: white;
-    }
+.db {
+    display: block;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.t0 {
+    top: 0;
+}
+
+.l0 {
+    left: 0;
+}
+
+.display-none {
+    display: none;
+}
+
+.display {
+    display: block;
+}
+
+.opacity1 {
+    opacity: 1 !important;
+}  
+
+.display-title {
+    color: white !important;
+    display: block !important;
 }

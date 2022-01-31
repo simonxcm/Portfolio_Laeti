@@ -1,0 +1,53 @@
+.youtube-fullpage {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.hider-top {
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    background-color: #171717;
+}
+
+
+.left-container {
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    list-style: none;
+    margin: 22px 0 0 30px;
+
+    a, p {
+        text-decoration: none;
+        color: yellow;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    span li {
+        color: white;
+    }
+}
+
+
+// *--------  YOUTUBE PROJECT PAGE MEDIA QUERIES -------* //
+
+
+@media (max-width: 600px) {
+
+    .left-container {
+        justify-content: left;
+        margin: 23px 0 0 10px;
+        font-size: 27px;
+
+        span li {
+            display: none;
+        }
+    }
+}
