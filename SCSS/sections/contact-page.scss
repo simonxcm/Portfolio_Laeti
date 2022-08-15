@@ -4,7 +4,15 @@
     width: 62.5%;
 
     .contact-container {
-        text-align: center;    
+        text-align: center; 
+        
+        .bio {
+            color: yellow;
+            font-size: 20px;
+            letter-spacing: 0.7px;
+            text-align: center;
+            padding: 0 50px;
+        }
         
         img {
         width: 400px;
@@ -26,10 +34,30 @@
             }
         }
 
-        .instagram {
-            width: 35px;
-            margin-top: 10px;
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            
+            .instagram {
+                width: 35px;
+                margin: 10px 10px 0 0;
+            }
+
+            a {
+                button {
+                    width: 100px;
+                    height: 35px;
+                    font-size: 18px;
+                    background-color: yellow;
+                    border: none;
+                    border-radius: 5px;
+                    margin: 10px 0 0 10px;
+                    padding-top: 2px;
+                }
+            }
+
         }
+
     }
 }
 
@@ -47,10 +75,21 @@
                     font-size: 32px;
                 }
             }
-    
-            .instagram {
-                width: 30px;
+
+            .contact-links {
+                .instagram {
+                    width: 30px;
+                }
+                
+                a {
+                    button {
+                        width: 80px;
+                        height: 30px;
+                        font-size: 15px;
+                    }
+                }
             }
+    
         }
     }
 }
@@ -65,6 +104,10 @@
             width: 250px;
             margin-bottom: 20px;
             }
+
+            .bio {
+                font-size: 15px;
+            }
     
             h1 {
     
@@ -72,6 +115,18 @@
     
                 a {
                     font-size: 25px;
+                }
+            }
+
+            .contact-links {
+                .instagram {
+                    margin: 20px 10px 0 0;
+                }
+                
+                a {
+                    button {
+                        margin: 20px 0 0 10px;
+                    }
                 }
             }
         }
@@ -158,6 +213,17 @@
     
             .instagram {
                 width: 35px;
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+
+    .videobox-container-contact {
+        .contact-container {
+            .bio {
+                font-size: 13px;
             }
         }
     }
