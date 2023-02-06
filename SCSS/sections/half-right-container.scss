@@ -31,34 +31,45 @@
        
     .video-box2 {
         opacity: 0.7; 
+        display: flex;
 
         #video-two {
             height: 100%;
-            transform: translateX(-15%);
+            width: 100%;
+            object-fit: cover;
         }
     }
 
     .video-box3 {
         opacity: 0.7;
+        display: flex;
         
         #video-three {
             height: 100%;
+            width: 100%;
+            object-fit: cover;
         }
     }
     
     .video-box4 {
         opacity: 0.7; 
+        display: flex;
 
         #video-four {
             height: 100%;
+            width: 100%;
+            object-fit: cover;
         }
     }
     
     .video-box5 {
-        opacity: 0.7; 
+        opacity: 0.7;
+        display: flex; 
 
         #video-five {
             height: 100%;
+            width: 100%;
+            object-fit: cover;
         }
     } 
 
@@ -104,15 +115,12 @@
     .videobox-container {
         width: 50%;
 
-        
         .video-box2 {
             width: 100%;
             height: 25vh; 
     
             #video-two {
                 width: 100%;
-                height: auto; // override the height 100% no media queries
-                transform: none;
             }
         }
     
@@ -122,7 +130,6 @@
             
             #video-three {
                 width: 100%;
-                height: auto;
             }
         }
         
@@ -179,25 +186,21 @@
 
         #video-title2 {
             font-size: 40px;
-            letter-spacing: -2px;
             margin: 24px 0 0 28px;
         }
         
         #video-title3 {
             font-size: 40px;
-            letter-spacing: -2px;
             margin: 24px 0 0 28px;
         }
         
         #video-title4 {
             font-size: 40px;
-            letter-spacing: -2px;
             margin: 24px 0 0 28px;
         }
         
         #video-title5 {
             font-size: 40px;
-            letter-spacing: -2px;
             margin: 24px 0 0 28px;
         }
     }

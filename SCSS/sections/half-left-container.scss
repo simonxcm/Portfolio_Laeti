@@ -14,6 +14,7 @@
             width: 100%;
             overflow: hidden; 
             position: relative;
+            display: flex;
             height: 100vh;
 
             .firstname {
@@ -30,7 +31,6 @@
                 color: yellow;
                 font-size: 100px;
                 cursor: default;
-
             }
 
             .create-together {
@@ -61,7 +61,6 @@
                 margin: 0 35px 25px 0;
                 cursor: default;
 
-
                 .job1, .job2 {
                     margin-bottom: -22px;
                 }
@@ -70,7 +69,7 @@
             #video-title1 {
                 display: none;
                 font-size: 60px;
-                margin:40px 25px 0 0;
+                margin: 40px 25px 0 0;
                 right: 0;
                 writing-mode: vertical-rl;
                 cursor: default;
@@ -79,7 +78,8 @@
 
             #video-one {
                 height: 100%;
-                margin-left: -300px;
+                width: 100%;
+                object-fit: cover;
             }
         }
     }
@@ -89,18 +89,12 @@
     box-shadow: 3px 0 30px (rgb(0, 0, 0));
 }
 
-
 // *--------  MAIN LEFT HOMEPAGE SECTION MEDIA QUERIES  --------* //
 
-
 @media (max-width: 1360px) {
-
     .homepage-container {
-        
         .mainbox-container {
-            
             .main-box {
-
                 h1 {
                     font-size: 75px;
                 }
@@ -128,21 +122,13 @@
                         margin-bottom: -16px;
                     }
                 }
-
-                #video-one {
-                    margin-left: -350px;
-                }
             }
         }
     }
 }
 
-
-
 @media (max-width: 1090px) {
-
     .homepage-container {
-        
         .mainbox-container {
             width: 50%;
 
@@ -170,6 +156,7 @@
 
                 .job-title {
                     font-size: 35px;
+                    margin: 0 25px 50px 0;
 
                     .job1, .job2 {
                         margin-bottom: -19px;
@@ -200,7 +187,6 @@
 
                 .create-together {
                     top: 150px;
-                    letter-spacing: -2px;
                 }
 
                 a {
@@ -220,11 +206,7 @@
                 
                 #video-title1 {
                     margin: 40px 30px 0 0;
-                    font-size: 28px;
-                }
-
-                #video-one {
-                    margin-left: 0;
+                    font-size: 50px;
                 }
             }
         }
@@ -242,7 +224,6 @@
 
                 h1 {
                     font-size: 57px;
-                    letter-spacing: -2px;
                 }
                 
                 .lastname {
@@ -263,7 +244,6 @@
 
                 .job-title {
                     font-size: 25px;
-                    letter-spacing: -2px;
 
 
                     .job1, .job2 {
@@ -276,7 +256,6 @@
 }
 
 @media (max-width: 700px) {
-
     .homepage-container {
         display: flex;
         flex-direction: column;
@@ -293,7 +272,6 @@
     
                 h1 {
                     font-size: 75px;
-                    letter-spacing: -2px;
                 }
                 
                 .lastname {
@@ -306,15 +284,13 @@
                 }
     
                 a {
-    
                     h2 {
                         font-size: 45px;
                     }
                 }
     
                 .job-title {
-                    font-size: 26px;
-                    letter-spacing: -2px;
+                    font-size: 40px;
     
                     .job1, .job2 {
                         margin-bottom: -18px;
@@ -322,12 +298,8 @@
                 }
 
                 #video-title1 {
-                    font-size: 24px;
+                    font-size: 50px;
                     margin: 43px 30px 0 0;
-                }
-
-                #video-one {
-                    margin-left: 0;
                 }
             }
         }
@@ -368,11 +340,9 @@
                 }
     
                 .job-title {
-                    font-size: 30px;
-                    margin: 0 25px 15px 0;
-                    letter-spacing: -2px;
+                    font-size: 35px;
+                    margin: 0 25px 110px 0;
 
-    
                     .job1, .job2 {
                         margin-bottom: -20px;
                     }
@@ -380,10 +350,6 @@
 
                 #video-title1 {
                     margin: 31px 15px 0 0;
-                }
-
-                #video-one {
-                    margin-left: -380px;
                 }
             }
         }
@@ -415,7 +381,6 @@
                 }
     
                 a {
-    
                     h2 {
                         font-size: 35px;
                         margin: 10px 0 0 25px;
@@ -424,7 +389,6 @@
     
                 .job-title {
                     font-size: 30px;
-                    margin: 0 25px 15px 0;
 
                     .job1, .job2 {
                         margin-bottom: -17px;
@@ -434,10 +398,6 @@
                 #video-title1 {
                     font-size: 45px;
                     margin: 31px 20px 0 0;
-                }
-
-                #video-one {
-                    margin-left: -380px;
                 }
             }
         }

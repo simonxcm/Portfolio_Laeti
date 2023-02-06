@@ -212,40 +212,19 @@ function pauseVid5()
 
 
 let mediaQuery = window.matchMedia("(max-width: 930px)")
-
 function changeVideoSource(mediaQuery) {
     if (mediaQuery.matches) { 
-        videoOne.setAttribute('src', '/medias/videos/liberte-sans-nom-mobile.mp4');
-        videoTwo.setAttribute('src', '/medias/videos/identite-mobile.mp4');
-        videoThree.setAttribute('src', '/medias/videos/leo-fifty-five-mobile.mp4');
+        videoOne.setAttribute('src', '/medias/videos/teaser-lovers-desktop.mp4');
+        videoTwo.setAttribute('src', '/medias/videos/lovers.mp4');
+        videoThree.setAttribute('src', '/medias/videos/janaq.mp4');
         videoFour.setAttribute('src', '/medias/videos/sombrero-mobile.mp4');
-        videoFive.setAttribute('src', '/medias/videos/jaia-rose-mobile.mp4');
+        videoFive.setAttribute('src', '/medias/videos/liberte-sans-nom-mobile.mp4');
     } else {
-        videoOne.setAttribute('src', '/medias/videos/liberte-sans-nom-tiny.mp4');
-        videoTwo.setAttribute('src', '/medias/videos/identite-tiny.mp4');
-        videoThree.setAttribute('src', '/medias/videos/leo-fifty-five-tiny.mp4');
+        videoOne.setAttribute('src', '/medias/videos/teaser-lovers-desktop.mp4');
+        videoTwo.setAttribute('src', '/medias/videos/lovers.mp4');
+        videoThree.setAttribute('src', '/medias/videos/janaq.mp4');
         videoFour.setAttribute('src', '/medias/videos/sombrero-tiny.mp4');
-        videoFive.setAttribute('src', '/medias/videos/jaia-rose-tiny.mp4');
+        videoFive.setAttribute('src', '/medias/videos/liberte-sans-nom-tiny.mp4');
     }
 }
-   
 changeVideoSource(mediaQuery) 
-
-
-// *------------------------------------------------* //
-// *--  FORCING AUTOPLAY ON MOBILE LOW POWER MODE --* //
-// *------------------------------------------------* //
-
-/*
-
-document.getElementById('video-one').addEventListener('touchstart', function () {
-
-    videoOne.play();
-});
-
-document.getElementById('video-one').addEventListener('touchend', function () {
-
-    videoOne.pause();
-});
-
-*/
